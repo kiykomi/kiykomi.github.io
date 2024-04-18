@@ -53,14 +53,16 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 62px/1.9em 'opensans-bold', sans-serif;
+   font: 62px/1.9em 'Raleway', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
-   font: 23px/1.9em 'librebaskerville-regular', serif;
+   font: 23px/1.9em 'Barlow', serif;
+	font-weight: 100;
+  font-style: normal;
    color: #fff;
    margin: 0 auto;
    width: 80%;
@@ -127,7 +129,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'opensans-bold', sans-serif;
+   font: 12px 'Raleway', sans-serif;
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -194,7 +196,7 @@ ul#nav li.current a { color: #F06000; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+   font: 22px/30px 'Raleway', sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
@@ -243,16 +245,17 @@ ul#nav li.current a { color: #F06000; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px 'Raleway', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
 #resume h1 span {
+	
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 25px/30px 'Raleway', sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -270,11 +273,12 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 9px;
 }
 #resume .info span {
+	font
    margin-right: 5px;
    margin-left: 5px;
 }
 #resume .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
+   font: 15px/24px 'Barlow', sans-serif;
    margin-top: 6px;
 }
 
@@ -300,7 +304,7 @@ ul#nav li.current a { color: #F06000; }
   	border-radius: 3px;
 }
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+	font: 15px 'Raleway', sans-serif;
    color: #313131;
 	text-transform: uppercase;
    letter-spacing: 2px;
@@ -337,7 +341,7 @@ ul#nav li.current a { color: #F06000; }
 #portfolio a:hover, #portfolio a:focus { color: #313131; }
 
 #portfolio h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px 'Raleway', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -346,7 +350,7 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 6px;
 }
 #portfolio h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 25px/30px 'Raleway', sans-serif;
 }
 
 #portfolio .header-col { padding-top: 1px; }
@@ -364,7 +368,7 @@ ul#nav li.current a { color: #F06000; }
    margin-left: 5px;
 }
 #portfolio .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
+   font: 15px/24px 'Barlow', sans-serif;
    margin-top: 6px;
 }
 
@@ -390,7 +394,7 @@ ul#nav li.current a { color: #F06000; }
   	border-radius: 3px;
 }
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
+	font: 15px 'Raleway', sans-serif;
    color: #313131;
 	text-transform: uppercase;
    letter-spacing: 2px;
@@ -421,17 +425,17 @@ ul#nav li.current a { color: #F06000; }
 }
 .popup-modal .description-box { padding: 12px 36px 18px 36px; }
 .popup-modal .description-box h4 {
-   font: 15px/24px 'opensans-bold', sans-serif;
+   font: 15px/24px 'Raleway', sans-serif;
 	margin-bottom: 12px;
    color: #111;
 }
 .popup-modal .description-box p {
-	font: 14px/24px 'opensans-regular', sans-serif;
+	font: 14px/24px 'Barlow', sans-serif;
    color: #A1A1A1;
    margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
-   font: 11px/21px 'opensans-light', sans-serif;
+   font: 11px/21px 'Barlow', sans-serif;
    color: #A1A1A1;
    text-transform: uppercase;
    letter-spacing: 2px;
@@ -448,7 +452,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .popup-modal .link-box a {
    color: #fff;
-	font: 11px/21px 'opensans-bold', sans-serif;
+	font: 11px/21px 'Raleway', sans-serif;
 	text-transform: uppercase;
    letter-spacing: 3px;
    cursor: pointer;
@@ -488,7 +492,7 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 48px;
 }
 #call-to-action h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px 'Raleway', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
@@ -508,7 +512,7 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 12px;
 }
 #call-to-action h2 {
-   font: 28px/36px 'opensans-bold', sans-serif;
+   font: 28px/36px 'Raleway', sans-serif;
    color: #EBEEEE;
    margin-bottom: 6px;
 }
@@ -531,7 +535,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'opensans-semibold', sans-serif; 
+	font-family: 'Barlow', sans-serif; 
 	color: #D8D8D8;
 }
 
@@ -643,7 +647,7 @@ call-to-action .button {
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px 'Raleway', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
@@ -651,7 +655,7 @@ call-to-action .button {
 }
 #contact h1 span { display: none; }
 #contact h1:before {
-   font-family: 'FontAwesome';
+   font-family: 'Barlow';
    content: "\f0e0";
 	padding-right: 10px;
 	font-size: 72px;
@@ -661,17 +665,17 @@ call-to-action .button {
    color: #ebeeee;
 }
 #contact h2 {
-   font: 24px/32px 'opensans-bold', sans-serif;
+   font: 24px/32px 'Raleway', sans-serif;
    color: #fff;
    margin-bottom: 6px;
 }
 #contact h4 {
-   font: 16px/24px 'opensans-bold', sans-serif;
+   font: 16px/24px 'Raleway', sans-serif;
    color: #fff;
    margin-bottom: 6px;
 }
 #contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
+   font: 18px/36px 'Raleway', sans-serif;
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }
@@ -680,7 +684,7 @@ call-to-action .button {
 /* contact form */
 #contact form { margin-bottom: 30px; }
 #contact label {
-   font: 15px/24px 'opensans-bold', sans-serif;
+   font: 15px/24px 'Raleway', sans-serif;
    margin: 12px 0;
    color: #EBEEEE;
 	display: inline-block;
@@ -762,7 +766,7 @@ call-to-action .button {
    display: block;
 }
 #twitter li b a {
-   font: 13px/36px 'opensans-regular', Sans-serif;
+   font: 13px/36px 'Barlow', Sans-serif;
    color: #474747 !important;
    border: none;
 }
