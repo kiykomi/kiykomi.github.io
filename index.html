@@ -713,20 +713,24 @@
             }
         }
         
-        @media (max-width: 900px) {
-            .container {
-                grid-template-columns: 1fr;
-                gap: 25px;
-            }
-            
-            .sidebar {
-                order: 2;
-            }
-            
-            .main-content {
-                order: 1;
-            }
-        }
+		@media (max-width: 900px) {
+			.container {
+				grid-template-columns: 1fr;
+				gap: 25px;
+			}
+			
+			.sidebar {
+				order: 1;  
+			}
+			
+			.main-content {
+				order: 2;  
+			}
+			
+			.about-card {
+				order: -1; 
+			}
+		}
         
         @media (max-width: 768px) {
             .header-container {
