@@ -68,14 +68,7 @@
             position: relative;
             z-index: 1;
         }
-        
-        .header-actions {
-            display: flex;
-            justify-content: flex-end;
-            gap: 15px;
-            margin-bottom: 30px;
-        }
-        
+             
         .profile {
             display: flex;
             align-items: center;
@@ -125,7 +118,7 @@
             display: flex;
             flex-wrap: wrap;
             gap: 25px;
-            justify-content: center;
+            justify-content: left;
         }
         
         .contact-item {
@@ -713,41 +706,46 @@
             }
         }
         
-		@media (max-width: 900px) {
-			.container {
-				grid-template-columns: 1fr;
-				gap: 25px;
-			}
-			
-			.sidebar {
-				order: 1;  
-			}
-			
-			.main-content {
-				order: 2;  
-			}
-			
-			.about-card {
-				order: -1; 
-			}
-		}
+        @media (max-width: 900px) {
+            .container {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+            
+            .sidebar {
+                order: 1;
+            }
+            
+            .main-content {
+                order: 2;
+            }
+        }
         
         @media (max-width: 768px) {
             .header-container {
                 padding: 0 15px;
             }
             
-            .header-actions {
-                flex-direction: column;
-                align-items: center;
-                gap: 10px;
-            }
+			.profile-actions {
+				margin-left: 0;
+				align-items: center;
+				gap: 10px;
+			}
             
-            .profile {
-                flex-direction: column;
-                text-align: center;
-                gap: 20px;
-            }
+			.profile {
+				flex-direction: column;
+				text-align: center;
+				gap: 20px;
+			}
+
+			.profile-actions {
+				order: -1;  /* перемещает кнопки в начало */
+				margin-left: 0;
+				align-items: center;
+				flex-direction: row;
+				justify-content: center;
+				gap: 15px;
+			}
             
             .contact-info {
                 flex-direction: column;
@@ -816,49 +814,60 @@
         ::-webkit-scrollbar-thumb:hover {
             background: linear-gradient(135deg, var(--hover-accent), #1e6fa8);
         }
+		
+		.profile-actions {
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+			margin-left: auto;
+			align-items: center;
+		}
     </style>
 </head>
 <body>
     <header>
         <div class="header-container">
-            <div class="header-actions">
-                <div class="lang-switcher">
-					<button class="lang-btn">
-						<div class="flag-icon flag-gb"></div>
-						<span>EN</span>
-						<i class="fas fa-chevron-down"></i>
-					</button>
-                    <div class="lang-dropdown">
-                        <div class="lang-option" data-lang="en">
-                            <div class="flag-icon flag-gb"></div>
-                            <span data-translate="lang-english">English</span>
-                        </div>
-                        <div class="lang-option" data-lang="ru">
-                            <div class="flag-icon flag-ru"></div>
-                            <span data-translate="lang-russian">Русский</span>
-                        </div>
-                        <div class="lang-option" data-lang="de">
-                            <div class="flag-icon flag-de"></div>
-                            <span data-translate="lang-german">Deutsch</span>
-                        </div>
-                        <div class="lang-option" data-lang="uk">
-                            <div class="flag-icon flag-ua"></div>
-                            <span data-translate="lang-ukrainian">Українська</span>
-                        </div>
-                    </div>
-                </div>
-                <a id="download-cv" class="download-btn" href="CV_KyikoM_EN.pdf" download>
-				  <span>Download CV</span>
-				</a>
-            </div>
             
-            <div class="profile">
-                <img src="profilepic.jpg" class="profile-img"></img>
-                <div class="profile-info">
-                    <h1 data-translate="name">Mykhailo Kyiko</h1>
-                    <p data-translate="position">Junior DevOps Engineer, Sysadmin, Security Engineer</p>
-                </div>
-            </div>
+            
+			<div class="profile">
+				<img src="profilepic.jpg" class="profile-img"></img>
+				<div class="profile-info">
+					<h1 data-translate="name">Mykhailo Kyiko</h1>
+					<p data-translate="position">Junior DevOps Engineer, Sysadmin, Security Engineer</p>
+				</div>
+				
+				<!-- Кнопки перенесены сюда -->
+				<div class="profile-actions">
+					<div class="lang-switcher">
+						<button class="lang-btn">
+							<div class="flag-icon flag-gb"></div>
+							<span>EN</span>
+							<i class="fas fa-chevron-down"></i>
+						</button>
+						<div class="lang-dropdown">
+							<div class="lang-option" data-lang="en">
+								<div class="flag-icon flag-gb"></div>
+								<span data-translate="lang-english">English</span>
+							</div>
+							<div class="lang-option" data-lang="ru">
+								<div class="flag-icon flag-ru"></div>
+								<span data-translate="lang-russian">Русский</span>
+							</div>
+							<div class="lang-option" data-lang="de">
+								<div class="flag-icon flag-de"></div>
+								<span data-translate="lang-german">Deutsch</span>
+							</div>
+							<div class="lang-option" data-lang="uk">
+								<div class="flag-icon flag-ua"></div>
+								<span data-translate="lang-ukrainian">Українська</span>
+							</div>
+						</div>
+					</div>
+					<a id="download-cv" class="download-btn" href="CV_KyikoM_EN.pdf" download>
+						<span>Download CV</span>
+					</a>
+				</div>
+			</div>
             
             <div class="contact-info">
                 <div class="contact-item">
