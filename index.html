@@ -591,7 +591,14 @@
             box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
             border-color: var(--accent);
         }
-        
+		.custom-project-image {
+			width: 100%;
+			height: auto;
+			object-fit: cover;
+			border-radius: 8px;
+		}
+
+
         .project-image {
             height: 200px;
             background: linear-gradient(135deg, var(--primary), var(--secondary));
@@ -1347,20 +1354,20 @@
             </section>
             
             <section id="projects" class="loading">
-                <h2 data-translate="projects">Key Projects</h2>
+                <h2 data-translate="projects">My Projects</h2>
                 
                 <div class="projects-grid">
                     <div class="project-card">
                         <div class="project-image">
-                            <i class="fas fa-chart-line"></i>
+                            <img src="IMG/mktk.png" alt="Project Image" class="custom-project-image">
                         </div>
                         <div class="project-info">
-                            <h3 class="project-title" data-translate="project1-title">This section is still being processed</h3>
+                            <h3 class="project-title" data-translate="project1-title">Jenkins Pipeline for Mikrotik Router Configuration Automation</h3>
                             <p class="project-description" data-translate="project1-desc">
-                                Building a portfolio for now, I'll have a lot of my accomplishments here soon.
+                                The MikroTik Router Automation Project standardizes and streamlines the configuration of MikroTik devices across distributed networks. It automates critical setup tasks including interface naming, firewall hardening, VPN server deployment (PPTP/L2TP/IPSec), monitoring integration, and secure configuration backups via Oxidized. Designed for scalability and consistency, the solution uses a parameter-driven approach to support flexible deployment across various site configurations. The system enhances security by disabling insecure services, enforcing access controls, and enabling DDoS and brute-force protection. It also integrates with centralized monitoring and authentication systems (RADIUS, SNMP, email alerts), ensuring reliable operations and auditability. Built with Jenkins, the automation provides a repeatable, traceable, and maintainable process for zero-touch provisioning of edge routers.
                             </p>
                             <div class="project-links">
-                                <a href="#" class="project-link">
+                                <a href="https://gitlab.com/kiykomi/portfolio/-/tree/main/Jenkins/MikroTik%20Router%20Configuration%20Automation" class="project-link" target="_blank" rel="noopener noreferrer">
                                     <i class="fas fa-info-circle"></i>
                                     <span data-translate="details">Details</span>
                                 </a>
@@ -1368,20 +1375,21 @@
                         </div>
                     </div>
                     
-                    <!--<div class="project-card">
+                    <!--
+					-->
+					<div class="project-card">
                         <div class="project-image">
-                            <i class="fas fa-shield-alt"></i>
+                            <i class="fas fa-robot"></i>
                         </div>
                         <div class="project-info">
-                            <h3 class="project-title" data-translate="project2-title">Security Hardening Project</h3>
+                            <h3 class="project-title" data-translate="project2-title">EPAM Final Project (CI/CD Pipeline for Spring PetClinic with Jenkins, Terraform, and Ansible)</h3>
                             <p class="project-description" data-translate="project2-desc">
-                                Led security assessment and hardening of Windows and Linux servers, 
-                                improving security score by 80% according to internal audits.
+                                This project automates the complete delivery lifecycle of the Spring PetClinic application — from code to production. It establishes a seamless, fully automated CI/CD pipeline using Jenkins, Terraform, and Ansible to build, test, containerize, and deploy the application on AWS infrastructure. The pipeline provisions development and production environments on-demand, deploys Dockerized services via Ansible, and optionally tears everything down with a single approval. Every step is traceable and monitored, with real-time Telegram notifications providing instant feedback. Elegant, consistent, and repeatable — it’s infrastructure and deployment automation at its finest.
                             </p>
                             <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fas fa-lock"></i>
-                                    <span data-translate="security">Security</span>
+                                <a href="https://gitlab.com/kiykomi/portfolio/-/tree/main/EPAM_final_project" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-info-circle"></i>
+                                    <span data-translate="details">Details</span>
                                 </a>
                             </div>
                         </div>
@@ -1389,22 +1397,39 @@
                     
                     <div class="project-card">
                         <div class="project-image">
-                            <i class="fas fa-robot"></i>
+                            <img src="IMG/aruba.png" alt="Project Image" class="custom-project-image">
                         </div>
                         <div class="project-info">
-                            <h3 class="project-title" data-translate="project3-title">Automation Scripts Collection</h3>
+                            <h3 class="project-title" data-translate="project3-title">Aruba Switch Configuration Generator GUI</h3>
                             <p class="project-description" data-translate="project3-desc">
-                                Developed Python and Bash scripts for routine tasks automation, 
-                                reducing manual work by 70% and improving consistency.
+                                This project automates the creation of standardized Aruba switch configurations through an intuitive PowerShell-based GUI. Designed for network administrators, it eliminates manual errors by guiding users through a simple interface to define switch models, port roles (Access/Trunk), VLAN assignments, stacking setups, and basic network settings. With features like dynamic port tables, automatic VLAN configuration, and one-click copy-to-clipboard, the tool streamlines deployment for both standalone and stacked switches — making consistent, repeatable switch provisioning fast and accessible to all skill levels.
                             </p>
                             <div class="project-links">
-                                <a href="#" class="project-link">
-                                    <i class="fab fa-python"></i>
-                                    <span data-translate="automation">Automation</span>
+                                <a href="https://gitlab.com/kiykomi/portfolio/-/tree/main/PowerShell/Aruba%20Switch%20Configuration%20Generator%20GUI" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-info-circle"></i>
+                                    <span data-translate="details">Details</span>
                                 </a>
                             </div>
                         </div>
-                    </div>-->
+                    </div>
+					
+					<div class="project-card">
+                        <div class="project-image">
+                            <i class="fab fa-gitlab"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title" data-translate="project4-title">All my projects</h3>
+                            <p class="project-description" data-translate="project4-desc">
+                                You can find all my other public projects here.
+                            </p>
+                            <div class="project-links">
+                                <a href="https://gitlab.com/kiykomi/portfolio" class="project-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-info-circle"></i>
+                                    <span data-translate="details">Details</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
@@ -1418,7 +1443,7 @@
             <a href="https://www.linkedin.com/in/kiykomi" class="social-link" title="LinkedIn">
                 <i class="fab fa-linkedin"></i>
             </a>
-            <a href="https://gitlab.com/kiykomi/final_project" class="social-link" title="GitLab">
+            <a href="https://gitlab.com/kiykomi/portfolio" class="social-link" title="GitLab">
                 <i class="fab fa-gitlab"></i>
             </a>
             <a href="https://t.me/Silbersabel" class="social-link" title="Telegram">
@@ -1518,13 +1543,15 @@
                // 'linux-desc': 'Здесь могли бы быть мои сертификаты, но увы.',
                 
                 // Projects
-                'projects': 'Ключевые проекты',
-                'project1-title': 'Этот раздел ещё в обработке',
-                'project1-desc': 'Пока что формирую портфолио, скоро здесь будет много моих достижений.',
-                'project2-title': 'Проект усиления безопасности',
-                'project2-desc': 'Провел оценку безопасности и усиление защиты Windows и Linux серверов, улучшив показатель безопасности на 80% согласно внутренним аудитам.',
-                'project3-title': 'Коллекция скриптов автоматизации',
-                'project3-desc': 'Разработал Python и Bash скрипты для автоматизации рутинных задач, сократив ручную работу на 70% и улучшив консистентность.',
+				'projects': 'Мои проекты',
+                'project1-title': 'Автоматизация конфигурации Jenkins/MikroTik маршрутизаторов',
+                'project1-desc': 'Проект автоматизации MikroTik маршрутизаторов стандартизирует и оптимизирует конфигурацию устройств MikroTik в распределенных сетях. Он автоматизирует критические задачи настройки, включая именование интерфейсов, усиление брандмауэра, развертывание VPN серверов (PPTP/L2TP/IPSec), интеграцию мониторинга и безопасные резервные копии конфигураций через Oxidized. Разработанное для масштабируемости и согласованности, решение использует подход на основе параметров для поддержки гибкого развертывания в различных конфигурациях сайтов. Система повышает безопасность путем отключения небезопасных служб, обеспечения контроля доступа и включения защиты от DDoS и атак грубой силы. Она также интегрируется с централизованными системами мониторинга и аутентификации (RADIUS, SNMP, email-уведомления), обеспечивая надежную работу и возможность аудита. Построенная с Jenkins, автоматизация предоставляет повторяемый, отслеживаемый и поддерживаемый процесс для бесконтактного провизионинга граничных маршрутизаторов.',
+                'project2-title': 'Финальный проект EPAM (CI/CD конвейер для Spring PetClinic с Jenkins, Terraform и Ansible)',
+                'project2-desc': 'Этот проект автоматизирует полный жизненный цикл доставки приложения Spring PetClinic — от кода до продакшна. Он устанавливает бесшовный, полностью автоматизированный CI/CD конвейер с использованием Jenkins, Terraform и Ansible для сборки, тестирования, контейнеризации и развертывания приложения на AWS инфраструктуре. Конвейер провизионит среды разработки и продакшн по требованию, развертывает докеризованные сервисы через Ansible и при желании демонтирует все одним утверждением. Каждый шаг отслеживается и мониторится с уведомлениями Telegram в реальном времени, обеспечивая мгновенную обратную связь. Элегантно, согласованно и повторяемо — это автоматизация инфраструктуры и развертывания на высшем уровне.',
+                'project3-title': 'GUI генератор конфигураций Aruba коммутаторов',
+                'project3-desc': 'Этот проект автоматизирует создание стандартизированных конфигураций Aruba коммутаторов через интуитивный GUI на базе PowerShell. Разработанный для сетевых администраторов, он устраняет ошибки ручного ввода, направляя пользователей через простой интерфейс для определения моделей коммутаторов, ролей портов (Access/Trunk), назначений VLAN, настроек стекирования и базовых сетевых параметров. С функциями как динамические таблицы портов, автоматическая конфигурация VLAN и копирование в буфер обмена одним кликом, инструмент оптимизирует развертывание как для отдельных, так и для стекированных коммутаторов — делая согласованное, повторяемое провизионирование коммутаторов быстрым и доступным для всех уровней навыков.',
+                'project4-title': 'Все мои проекты',
+                'project4-desc': 'Вы можете найти все мои другие публичные проекты здесь.',
                 
                 // Links
                 'details': 'Детали',
@@ -1620,13 +1647,15 @@
 				//'linux-desc': 'Адміністрування систем Linux, командний рядок, файлові системи, мережі та безпека.',
 				
 				// Projects
-				'projects': 'Ключові проєкти',
-				'project1-title': 'Цей розділ ще в обробці',
-				'project1-desc': 'Поки що формую портфоліо, скоро тут буде багато моїх досягнень.',
-				'project2-title': 'Проєкт посилення безпеки',
-				'project2-desc': 'Провів аудит безпеки та посилив захист Windows і Linux серверів, покращивши показник безпеки на 80% згідно з внутрішніми аудитами.',
-				'project3-title': 'Колекція скриптів автоматизації',
-				'project3-desc': 'Розробив Python і Bash скрипти для автоматизації рутинних завдань, скоротивши ручну роботу на 70% і підвищивши консистентність.',
+				'projects': 'Мої проекти',
+                'project1-title': 'Автоматизація конфігурації Jenkins/MikroTik маршрутизаторів',
+                'project1-desc': 'Проект автоматизації MikroTik маршрутизаторів стандартизує та оптимізує конфігурацію пристроїв MikroTik у розподілених мережах. Він автоматизує критичні завдання налаштування, включаючи іменування інтерфейсів, зміцнення брандмауера, розгортання VPN серверів (PPTP/L2TP/IPSec), інтеграцію моніторингу та безпечні резервні копії конфігурацій через Oxidized. Розроблене для масштабованості та узгодженості, рішення використовує підхід на основі параметрів для підтримки гнучкого розгортання в різних конфігураціях сайтів. Система підвищує безпеку шляхом відключення небезпечних служб, забезпечення контролю доступу та увімкнення захисту від DDoS та атак грубої сили. Вона також інтегрується з централізованими системами моніторингу та аутентифікації (RADIUS, SNMP, email-сповіщення), забезпечуючи надійну роботу та можливість аудиту. Побудована з Jenkins, автоматизація надає повторюваний, відстежуваний та підтримуваний процес для безконтактного провізіонингу граничних маршрутизаторів.',
+                'project2-title': 'Фінальний проект EPAM (CI/CD конвеєр для Spring PetClinic з Jenkins, Terraform та Ansible)',
+                'project2-desc': 'Цей проект автоматизує повний життєвий цикл доставки додатку Spring PetClinic — від коду до продакшну. Він встановлює безшовний, повністю автоматизований CI/CD конвеєр з використанням Jenkins, Terraform та Ansible для збирання, тестування, контейнеризації та розгортання додатку на AWS інфраструктурі. Конвеєр провізіонує середовища розробки та продакшну на вимогу, розгортає докеризовані сервіси через Ansible і за бажанням демонтує все одним схваленням. Кожен крок відстежується та моніториться з сповіщеннями Telegram у реальному часі, що надає миттєвий зворотний зв\'язок. Елегантно, узгоджено та повторювано — це автоматизація інфраструктури та розгортання на найвищому рівні.',
+                'project3-title': 'GUI генератор конфігурацій Aruba комутаторів',
+                'project3-desc': 'Цей проект автоматизує створення стандартизованих конфігурацій Aruba комутаторів через інтуїтивний GUI на базі PowerShell. Розроблений для мережевих адміністраторів, він усуває помилки ручного введення, направляючи користувачів через простий інтерфейс для визначення моделей комутаторів, ролей портів (Access/Trunk), призначень VLAN, налаштувань стекування та базових мережевих параметрів. З функціями як динамічні таблиці портів, автоматична конфігурація VLAN та копіювання в буфер обміну одним кліком, інструмент оптимізує розгортання як для окремих, так і для стекованих комутаторів — роблячи узгоджене, повторюване провізіонування комутаторів швидким та доступним для всіх рівнів навичок.',
+                'project4-title': 'Всі мої проекти',
+                'project4-desc': 'Ви можете знайти всі мої інші публічні проекти тут.',
 				
 				// Links
 				'details': 'Деталі',
@@ -1723,13 +1752,15 @@
                 //'linux-desc': 'Linux-Systemadministration, Kommandozeile, Dateisysteme, Netzwerke und Sicherheit.',
                 
                 // Projects
-                'projects': 'Schlüsselprojekte',
-                'project1-title': 'Dieser Abschnitt ist noch in Bearbeitung',
-                'project1-desc': 'Ich baue gerade ein Portfolio auf und werde hier bald eine Menge meiner Errungenschaften zeigen.',
-                'project2-title': 'Sicherheits-Härtung-Projekt',
-                'project2-desc': 'Leitete Sicherheitsbewertung und Härtung von Windows- und Linux-Servern, verbesserte Sicherheitsscore um 80% laut internen Audits.',
-                'project3-title': 'Automatisierungs-Skript-Sammlung',
-                'project3-desc': 'Entwickelte Python- und Bash-Skripte für Routine-Aufgaben-Automatisierung, reduzierte manuelle Arbeit um 70% und verbesserte Konsistenz.',
+				'projects': 'Meine Projekte',
+                'project1-title': 'Jenkins/MikroTik Router-Konfigurationsautomatisierung',
+                'project1-desc': 'Das MikroTik Router-Automatisierungsprojekt standardisiert und optimiert die Konfiguration von MikroTik-Geräten in verteilten Netzwerken. Es automatisiert kritische Setup-Aufgaben einschließlich Interface-Benennung, Firewall-Härtung, VPN-Server-Bereitstellung (PPTP/L2TP/IPSec), Monitoring-Integration und sichere Konfigurations-Backups über Oxidized. Das für Skalierbarkeit und Konsistenz entwickelte System verwendet einen parametergesteuerten Ansatz zur Unterstützung flexibler Bereitstellung in verschiedenen Standortkonfigurationen. Das System erhöht die Sicherheit durch Deaktivierung unsicherer Dienste, Durchsetzung von Zugangskontrollen und Aktivierung von DDoS- und Brute-Force-Schutz. Es integriert sich auch mit zentralisierten Monitoring- und Authentifizierungssystemen (RADIUS, SNMP, E-Mail-Benachrichtigungen) und gewährleistet zuverlässigen Betrieb und Auditierbarkeit. Mit Jenkins erstellt, bietet die Automatisierung einen wiederholbaren, nachverfolgbaren und wartbaren Prozess für die Zero-Touch-Bereitstellung von Edge-Routern.',
+                'project2-title': 'EPAM Abschlussprojekt (CI/CD Pipeline für Spring PetClinic mit Jenkins, Terraform und Ansible)',
+                'project2-desc': 'Dieses Projekt automatisiert den kompletten Delivery-Lebenszyklus der Spring PetClinic-Anwendung — von Code bis zur Produktion. Es etabliert eine nahtlose, vollautomatisierte CI/CD-Pipeline mit Jenkins, Terraform und Ansible zum Erstellen, Testen, Containerisieren und Bereitstellen der Anwendung auf AWS-Infrastruktur. Die Pipeline stellt Entwicklungs- und Produktionsumgebungen auf Abruf bereit, deployt dockerisierte Services über Ansible und kann optional alles mit einer einzigen Genehmigung wieder abbauen. Jeder Schritt ist nachverfolgbar und überwacht, mit Echtzeit-Telegram-Benachrichtigungen für sofortiges Feedback. Elegant, konsistent und wiederholbar — das ist Infrastruktur- und Deployment-Automatisierung auf höchstem Niveau.',
+                'project3-title': 'Aruba Switch-Konfigurationsgenerator GUI',
+                'project3-desc': 'Dieses Projekt automatisiert die Erstellung standardisierter Aruba Switch-Konfigurationen durch eine intuitive PowerShell-basierte GUI. Für Netzwerkadministratoren entwickelt, eliminiert es manuelle Fehler, indem es Benutzer durch eine einfache Oberfläche zur Definition von Switch-Modellen, Port-Rollen (Access/Trunk), VLAN-Zuweisungen, Stacking-Setups und grundlegenden Netzwerkeinstellungen führt. Mit Funktionen wie dynamischen Port-Tabellen, automatischer VLAN-Konfiguration und Ein-Klick-Kopieren in die Zwischenablage optimiert das Tool die Bereitstellung sowohl für eigenständige als auch gestapelte Switches — wodurch konsistente, wiederholbare Switch-Bereitstellung schnell und für alle Skill-Level zugänglich wird.',
+                'project4-title': 'Alle meine Projekte',
+                'project4-desc': 'Sie können alle meine anderen öffentlichen Projekte hier finden.',
                 
                 // Links
                 'details': 'Details',
@@ -1825,14 +1856,16 @@
                 //'linux-desc': 'Linux system administration, command line, file systems, networking, and security.',
                 
                 // Projects
-                'projects': 'Key Projects',
-                'project1-title': 'This section is still being processed',
-                'project1-desc': 'Building a portfolio for now, I will have a lot of my accomplishments here soon..',
-                'project2-title': 'Security Hardening Project',
-                'project2-desc': 'Led security assessment and hardening of Windows and Linux servers, improving security score by 80% according to internal audits.',
-                'project3-title': 'Automation Scripts Collection',
-                'project3-desc': 'Developed Python and Bash scripts for routine tasks automation, reducing manual work by 70% and improving consistency.',
-                
+                'projects': 'My Projects',
+                'project1-title': 'Jenkins/MikroTik Router Configuration Automation',
+                'project1-desc': 'The MikroTik Router Automation Project standardizes and streamlines the configuration of MikroTik devices across distributed networks. It automates critical setup tasks including interface naming, firewall hardening, VPN server deployment (PPTP/L2TP/IPSec), monitoring integration, and secure configuration backups via Oxidized. Designed for scalability and consistency, the solution uses a parameter-driven approach to support flexible deployment across various site configurations. The system enhances security by disabling insecure services, enforcing access controls, and enabling DDoS and brute-force protection. It also integrates with centralized monitoring and authentication systems (RADIUS, SNMP, email alerts), ensuring reliable operations and auditability. Built with Jenkins, the automation provides a repeatable, traceable, and maintainable process for zero-touch provisioning of edge routers.',
+                'project2-title': 'EPAM Final Project (CI/CD Pipeline for Spring PetClinic with Jenkins, Terraform, and Ansible)',
+                'project2-desc': 'This project automates the complete delivery lifecycle of the Spring PetClinic application — from code to production. It establishes a seamless, fully automated CI/CD pipeline using Jenkins, Terraform, and Ansible to build, test, containerize, and deploy the application on AWS infrastructure. The pipeline provisions development and production environments on-demand, deploys Dockerized services via Ansible, and optionally tears everything down with a single approval. Every step is traceable and monitored, with real-time Telegram notifications providing instant feedback. Elegant, consistent, and repeatable — it’s infrastructure and deployment automation at its finest.',
+                'project3-title': 'Aruba Switch Configuration Generator GUI',
+                'project3-desc': 'This project automates the creation of standardized Aruba switch configurations through an intuitive PowerShell-based GUI. Designed for network administrators, it eliminates manual errors by guiding users through a simple interface to define switch models, port roles (Access/Trunk), VLAN assignments, stacking setups, and basic network settings. With features like dynamic port tables, automatic VLAN configuration, and one-click copy-to-clipboard, the tool streamlines deployment for both standalone and stacked switches — making consistent, repeatable switch provisioning fast and accessible to all skill levels.',
+                'project4-title': 'All my projects',
+                'project4-desc': 'You can find all my other public projects here.',
+
                 // Links
                 'details': 'Details',
                 'security': 'Security',
