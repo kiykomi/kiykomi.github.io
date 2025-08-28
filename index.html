@@ -295,42 +295,56 @@
             border-radius: 2px;
         }
         
-        .skills-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-        }
-        
-        .skill-item {
-            background: linear-gradient(135deg, var(--secondary), rgba(52, 73, 94, 0.8));
-            padding: 10px 16px;
-            border-radius: 25px;
-            font-size: 14px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            transition: all 0.3s ease;
-            border: 1px solid rgba(52, 152, 219, 0.2);
-        }
-        
-        .skill-item:hover {
-            background: linear-gradient(135deg, var(--accent), var(--hover-accent));
-            color: white;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
-        }
-        
-        .skill-item i {
-            color: var(--accent);
-            transition: color 0.3s ease;
-        }
-        
+		.skill-item {
+			background: linear-gradient(135deg, var(--secondary), rgba(52, 73, 94, 0.8));
+			padding: 14px 18px;
+			border-radius: 20px;
+			font-size: 14px;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 6px;
+			transition: all 0.3s ease;
+			border: 1px solid rgba(52, 152, 219, 0.2);
+
+			margin-bottom: 16px; /* <-- добавлено расстояние между блоками */
+		}
+
+		.skill-item:last-child {
+			margin-bottom: 0; /* чтобы у последнего блока не было лишнего отступа */
+		}
+
+
+		.skill-item:hover {
+			background: linear-gradient(135deg, var(--accent), var(--hover-accent));
+			color: white;
+			transform: translateY(-2px);
+			box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+		}
+
+		.skill-header {
+			display: flex;
+			align-items: center;
+			gap: 8px;
+			font-weight: bold;
+			font-size: 15px;
+		}
+
+		.skill-item i {
+			color: var(--accent);
+			transition: color 0.3s ease;
+		}
+
 		.skill-item:hover i {
 			color: white !important;
 		}
-        .skills-list {
-			opacity: 1;
+
+		.skills-list {
+			font-size: 13px;
+			color: #cfd8dc;
+			line-height: 1.4;
 		}
+
         .languages-list {
             display: flex;
             flex-direction: column;
@@ -897,139 +911,136 @@
 
 					<!-- Virtualization & Backup -->
 					<div class="skill-item">
-						<i class="fas fa-server"></i>
-						<span>VMWare ESXi</span>
-					</div>
-					<div class="skill-item">
-						<i class="fas fa-server"></i>
-						<span>Microsoft Hyper-V</span>
-					</div>
-					<div class="skill-item">
-						<i class="fas fa-database"></i>
-						<span>Veeam Backup and Recovery</span>
+						<div class="skill-header">
+							<i class="fas fa-server"></i>
+							<span>Virtualization & Backup</span>
+						</div>
+						<div class="skills-list">
+							VMWare ESXi, Microsoft Hyper-V, Proxmox, Veeam Backup and Recovery
+						</div>
 					</div>
 
 					<!-- Monitoring & Management -->
 					<div class="skill-item">
-						<i class="fas fa-chart-line"></i>
-						<span>Zabbix</span>
+						<div class="skill-header">
+							<i class="fas fa-chart-line"></i>
+							<span>Monitoring & Management</span>
+						</div>
+						<div class="skills-list">
+							Zabbix, Grafana, Prometheus, TheDude
+						</div>
 					</div>
 
 					<!-- Operating Systems -->
 					<div class="skill-item">
-						<i class="fab fa-windows"></i>
-						<span>Windows Server (AD, DNS, Policies, RDP)</span>
-					</div>
-					<div class="skill-item">
-						<i class="fab fa-linux"></i>
-						<span>Ubuntu Server</span>
+						<div class="skill-header">
+							<i class="fas fa-desktop"></i>
+							<span>Operating Systems</span>
+						</div>
+						<div class="skills-list">
+							Windows Server (AD, DNS, Policies, RDP), Ubuntu Server
+						</div>
 					</div>
 
 					<!-- Database Management -->
 					<div class="skill-item">
-						<i class="fas fa-database"></i>
-						<span>MySQL</span>
-					</div>
-					<div class="skill-item">
-						<i class="fas fa-database"></i>
-						<span>MS SQL</span>
-					</div>
-
-					<!-- Helpdesk & Knowledge Management -->
-					<div class="skill-item">
-						<i class="fas fa-headset"></i>
-						<span>Hesk Helpdesk</span>
-					</div>
-					<div class="skill-item">
-						<i class="fas fa-book"></i>
-						<span>Knowledge Base Systems</span>
+						<div class="skill-header">
+							<i class="fas fa-database"></i>
+							<span>Database Management</span>
+						</div>
+						<div class="skills-list">
+							MySQL, MS SQL
+						</div>
 					</div>
 
 					<!-- Networking -->
 					<div class="skill-item">
-						<i class="fas fa-network-wired"></i>
-						<span>MikroTik Routers</span>
-					</div>
-					<div class="skill-item">
-						<i class="fas fa-network-wired"></i>
-						<span>AlliedTelesis Switches</span>
-					</div>
-					<div class="skill-item">
-						<i class="fas fa-wifi"></i>
-						<span>Ubiquiti</span>
-					</div>
-					<div class="skill-item">
-						<i class="fas fa-network-wired"></i>
-						<span>Aruba Networks (HP Enterprise)</span>
+						<div class="skill-header">
+							<i class="fas fa-network-wired"></i>
+							<span>Networking</span>
+						</div>
+						<div class="skills-list">
+							MikroTik Routers, AlliedTelesis Switches, Aruba Networks (HP Enterprise), Ubiquiti
+						</div>
 					</div>
 
-					<!-- Medical IT & Imaging Systems -->
+					<!-- Security & Pentesting -->
 					<div class="skill-item">
-						<i class="fas fa-heartbeat"></i>
-						<span>DICOM, CT, MRI, X-ray, Ultrasound, Mammography</span>
-					</div>
-
-					<!-- IP Telephony -->
-					<div class="skill-item">
-						<i class="fas fa-phone"></i>
-						<span>IP Telephony & Call Center Integration</span>
-					</div>
-					<div class="skill-item">
-						<i class="fas fa-phone-volume"></i>
-						<span>IP-PBX, Elastics, 3CX, Asterisk</span>
+						<div class="skill-header">
+							<i class="fas fa-user-secret"></i>
+							<span>Security & Pentesting</span>
+						</div>
+						<div class="skills-list">
+							Attack tactics & penetration methods, Cobalt Strike, Metasploit, RidgetBot, Impacket, Mimikatz, ADRecon, Pass-the-Hash, Golden/Silver Ticket, CVE PoC
+						</div>
 					</div>
 
 					<!-- Security & Access Control -->
 					<div class="skill-item">
-						<i class="fas fa-video"></i>
-						<span>Video Surveillance</span>
-					</div>
-					<div class="skill-item">
-						<i class="fas fa-door-closed"></i>
-						<span>Access Control Systems (ACS)</span>
-					</div>
-
-					<!-- IT Infrastructure & System Administration -->
-					<div class="skill-item">
-						<i class="fas fa-envelope"></i>
-						<span>Mail Hosting</span>
-					</div>
-					<div class="skill-item">
-						<i class="fas fa-globe"></i>
-						<span>Web Hosting</span>
-					</div>
-					<div class="skill-item">
-						<i class="fas fa-desktop"></i>
-						<span>Custom Workstations (ARMs)</span>
-					</div>
-					<div class="skill-item">
-						<i class="fas fa-cash-register"></i>
-						<span>Fiscal Registers</span>
+						<div class="skill-header">
+							<i class="fas fa-shield-alt"></i>
+							<span>Security & Access Control</span>
+						</div>
+						<div class="skills-list">
+							Video Surveillance, Access Control Systems (ACS)
+						</div>
 					</div>
 
-					<!-- Technical Support & Team Management -->
+					<!-- IP Telephony -->
 					<div class="skill-item">
-						<i class="fas fa-users-cog"></i>
-						<span>Recruitment, Training, Conflict Resolution</span>
-					</div>
-					<div class="skill-item">
-						<i class="fas fa-file-alt"></i>
-						<span>Documentation Creation</span>
+						<div class="skill-header">
+							<i class="fas fa-phone"></i>
+							<span>IP Telephony</span>
+						</div>
+						<div class="skills-list">
+							IP Telephony & Call Center Integration, IP-PBX, Elastics, 3CX, Asterisk
+						</div>
 					</div>
 
-					<!-- Security & Pentesting Expertise -->
+					<!-- Medical IT & Imaging -->
 					<div class="skill-item">
-						<i class="fas fa-user-secret"></i>
-						<span>Attack tactics, penetration, hacker objectives</span>
+						<div class="skill-header">
+							<i class="fas fa-heartbeat"></i>
+							<span>Medical IT & Imaging</span>
+						</div>
+						<div class="skills-list">
+							DICOM, CT, MRI, X-ray, Ultrasound, Mammography
+						</div>
 					</div>
+
+					<!-- Helpdesk & Knowledge -->
 					<div class="skill-item">
-						<i class="fas fa-tools"></i>
-						<span>Cobalt Strike, Metasploit, RidgetBot, Impacket, Mimikatz, ADRecon</span>
+						<div class="skill-header">
+							<i class="fas fa-headset"></i>
+							<span>Helpdesk & Knowledge</span>
+						</div>
+						<div class="skills-list">
+							Hesk Helpdesk, Knowledge Base Systems
+						</div>
 					</div>
+
+					<!-- IT Infrastructure -->
 					<div class="skill-item">
-						<i class="fas fa-key"></i>
-						<span>Pass-the-Hash, Golden/Silver Ticket, CVE PoC</span>
+						<div class="skill-header">
+							<i class="fas fa-cogs"></i>
+							<span>IT Infrastructure</span>
+						</div>
+						<div class="skills-list">
+							Custom Workstations (ARMs), Fiscal Registers
+						</div>
 					</div>
+
+					<!-- Team Management -->
+					<div class="skill-item">
+						<div class="skill-header">
+							<i class="fas fa-users-cog"></i>
+							<span>Support & Team Management</span>
+						</div>
+						<div class="skills-list">
+							Recruitment, Training, Conflict Resolution, Documentation Creation
+						</div>
+					</div>
+
 				</div>
 			</div>
 
@@ -1308,38 +1319,115 @@
                 </div>
                 
                 <div class="tab-content" id="certifications-tab">
-					<div class="experience-item">
+					<!--<div class="experience-item">
                         <div class="experience-year">XXXX</div>
                         <div class="experience-content">
                             <h3 class="experience-company">This spot was reserved for my certificates… but life had other plans.</h3>
                             
                         </div>
-                    </div>
+                    </div>-->
+					
+					<div class="experience-item">
+						<div class="experience-year">2023</div>
+						<div class="experience-content">
+							<h3 class="experience-company">Veeam</h3>
+							<h4 class="experience-position">Veeam Backup for Microsoft 365 Certificate</h4>
+							<p class="experience-description" data-translate="veeam1-desc">
+								Foundational knowledge of M365 backup concepts, data loss scenarios, 
+								and Veeam protection strategies.
+							</p>
+							
+							<!-- Certificate Preview -->
+							<div class="certificate-preview" style="margin-top: 15px; display: flex; align-items: flex-start; gap: 15px;">
+								<img src="CRT/Veeam Backup for Microsoft 365 Certificate.png" 
+									 alt="AWS Cloud Practitioner Certificate" 
+									 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px;">
+								
+								<a href="CRT/Veeam Backup for Microsoft 365 Certificate.pdf" 
+								   target="_blank"
+								   style="display: inline-block; padding: 8px; background: #DC143C; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: bold; line-height: 1; min-width: 32px; text-align: center;">
+									PDF
+								</a>
+							</div>
+						</div>
+					</div>
+                    
+					<div class="experience-item">
+						<div class="experience-year">2023</div>
+						<div class="experience-content">
+							<h3 class="experience-company">Veeam</h3>
+							<h4 class="experience-position">Veeam Data Platform Certificate</h4>
+							<p class="experience-description" data-translate="veeam2-desc">
+								Foundational knowledge of Veeam's comprehensive data protection 
+								solutions for virtual, physical, and cloud workloads.
+							</p>
+							
+							<!-- Certificate Preview -->
+							<div class="certificate-preview" style="margin-top: 15px; display: flex; align-items: flex-start; gap: 15px;">
+								<img src="CRT/Veeam Data Platform Certificate.png" 
+									 alt="AWS Cloud Practitioner Certificate" 
+									 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px;">
+								
+								<a href="CRT/Veeam Data Platform Certificate.pdf" 
+								   target="_blank"
+								   style="display: inline-block; padding: 8px; background: #DC143C; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: bold; line-height: 1; min-width: 32px; text-align: center;">
+									PDF
+								</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="experience-item">
+						<div class="experience-year">2023</div>
+						<div class="experience-content">
+							<h3 class="experience-company">Stepik</h3>
+							<h4 class="experience-position">Introduction to Linux</h4>
+							<p class="experience-description" data-translate="stepik-desc">
+								Linux system fundamentals covering command-line operations, file permissions, 
+								user management, process control, service administration, and shell scripting basics.
+							</p>
+							
+							<!-- Certificate Preview -->
+							<div class="certificate-preview" style="margin-top: 15px; display: flex; align-items: flex-start; gap: 15px;">
+								<img src="CRT/stepik-certificate-73-275339b.png" 
+									 alt="AWS Cloud Practitioner Certificate" 
+									 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px;">
+								
+								<a href="CRT/stepik-certificate-73-275339b.pdf" 
+								   target="_blank"
+								   style="display: inline-block; padding: 8px; background: #DC143C; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: bold; line-height: 1; min-width: 32px; text-align: center;">
+									PDF
+								</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="experience-item">
+						<div class="experience-year">2020</div>
+						<div class="experience-content">
+							<h3 class="experience-company">3CX</h3>
+							<h4 class="experience-position">Introduction to Linux</h4>
+							<p class="experience-description" data-translate="3cx-desc">
+								Hands-on experience with 3CX phone system: installation, user management, 
+								call routing, and basic troubleshooting.
+							</p>
+							
+							<!-- Certificate Preview -->
+							<div class="certificate-preview" style="margin-top: 15px; display: flex; align-items: flex-start; gap: 15px;">
+								<img src="CRT/3cx.png" 
+									 alt="AWS Cloud Practitioner Certificate" 
+									 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px;">
+								
+								<a href="CRT/3cx.pdf" 
+								   target="_blank"
+								   style="display: inline-block; padding: 8px; background: #DC143C; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: bold; line-height: 1; min-width: 32px; text-align: center;">
+									PDF
+								</a>
+							</div>
+						</div>
+					</div>
+                    
                     <!--<div class="experience-item">
-                        <div class="experience-year">2021 - 2022</div>
-                        <div class="experience-content">
-                            <h3 class="experience-company">AWS Cloud Practitioner</h3>
-                            <h4 class="experience-position">Amazon Web Services</h4>
-                            <p class="experience-description" data-translate="aws-desc">
-                                Foundational understanding of AWS cloud services, security, architecture, 
-                                pricing, and support.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="experience-item">
-                        <div class="experience-year">2023</div>
-                        <div class="experience-content">
-                            <h3 class="experience-company">CompTIA Security+</h3>
-                            <h4 class="experience-position">CompTIA</h4>
-                            <p class="experience-description" data-translate="security-desc">
-                                Cybersecurity fundamentals, risk management, cryptography, and security 
-                                best practices.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="experience-item">
                         <div class="experience-year">2022</div>
                         <div class="experience-content">
                             <h3 class="experience-company">Linux Professional Institute Certification (LPIC-1)</h3>
@@ -1538,9 +1626,10 @@
                 'bachelor-desc': 'Специализация на компьютерных системах и сетях. Курсы включали системное администрирование, сетевые протоколы, архитектуру оборудования, кибербезопасность и разработку ПО.',
                 
                 // Certifications descriptions
-                //'aws-desc': 'Здесь могли бы быть мои сертификаты, но увы.',
-                //'security-desc': 'Здесь могли бы быть мои сертификаты, но увы.',
-               // 'linux-desc': 'Здесь могли бы быть мои сертификаты, но увы.',
+				'veeam1-desc': 'Базовые знания концепций резервного копирования M365, сценариев потери данных и стратегий защиты Veeam.',
+				'veeam2-desc': 'Базовые знания комплексных решений Veeam по защите данных для виртуальных, физических и облачных рабочих нагрузок.',
+				'stepik-desc': 'Основы системы Linux: операции командной строки, права доступа к файлам, управление пользователями, контроль процессов, администрирование сервисов и основы shell-скриптинга.',
+				'3cx-desc': 'Практический опыт работы с телефонной системой 3CX: установка, управление пользователями, маршрутизация вызовов и базовое устранение неполадок.',
                 
                 // Projects
 				'projects': 'Мои проекты',
@@ -1642,9 +1731,10 @@
 				'bachelor-desc': 'Спеціалізація на комп’ютерних системах і мережах. Курси включали системне адміністрування, мережеві протоколи, архітектуру обладнання, кібербезпеку та розробку ПЗ.',
 				
 				// Certifications descriptions
-				//'aws-desc': 'Фундаментальне розуміння хмарних сервісів AWS, безпеки, архітектури, ціноутворення та підтримки.',
-				//'security-desc': 'Основи кібербезпеки, управління ризиками, криптографія та найкращі практики безпеки.',
-				//'linux-desc': 'Адміністрування систем Linux, командний рядок, файлові системи, мережі та безпека.',
+				'veeam1-desc': 'Базові знання концепцій резервного копіювання M365, сценаріїв втрати даних та стратегій захисту Veeam.',
+				'veeam2-desc': 'Базові знання комплексних рішень Veeam щодо захисту даних для віртуальних, фізичних та хмарних робочих навантажень.',
+				'stepik-desc': 'Основи системи Linux: операції командного рядка, права доступу до файлів, керування користувачами, контроль процесів, адміністрування сервісів та основи shell-скриптинга.',
+				'3cx-desc': 'Практичний досвід роботи з телефонною системою 3CX: встановлення, керування користувачами, маршрутизація дзвінків та базове усунення несправностей.',
 				
 				// Projects
 				'projects': 'Мої проекти',
@@ -1747,9 +1837,10 @@
                 'bachelor-desc': 'Spezialisierung auf Computersysteme und Netzwerke. Kurse umfassten Systemadministration, Netzwerkprotokolle, Hardware-Architektur und Softwareentwicklung.',
                 
                 // Certifications descriptions
-                //'aws-desc': 'Grundlegendes Verständnis von AWS-Cloud-Services, Sicherheit, Architektur, Preisgestaltung und Support.',
-                //'security-desc': 'Cybersecurity-Grundlagen, Risikomanagement, Kryptographie und Sicherheits-Best-Practices.',
-                //'linux-desc': 'Linux-Systemadministration, Kommandozeile, Dateisysteme, Netzwerke und Sicherheit.',
+				'veeam1-desc': 'Grundlegende Kenntnisse der M365-Backup-Konzepte, Datenverlustszenarien und Veeam-Schutzstrategien.',
+				'veeam2-desc': 'Grundlegende Kenntnisse der umfassenden Datenschutzlösungen von Veeam für virtuelle, physische und Cloud-Workloads.',
+				'stepik-desc': 'Linux-Systemgrundlagen: Kommandozeilen-Operationen, Dateiberechtigungen, Benutzerverwaltung, Prozesskontrolle, Service-Administration und Shell-Scripting-Grundlagen.',
+				'3cx-desc': 'Praktische Erfahrung mit 3CX-Telefonsystem: Installation, Benutzerverwaltung, Anrufweiterleitung und grundlegende Fehlerbehebung.',
                 
                 // Projects
 				'projects': 'Meine Projekte',
@@ -1851,9 +1942,10 @@
                 'bachelor-desc': 'Specialized in computer systems and networks. Coursework included system administration, network protocols, hardware architecture, Cyber Security and software development.',
                 
                 // Certifications descriptions
-                //'aws-desc': 'Foundational understanding of AWS cloud services, security, architecture, pricing, and support.',
-                //'security-desc': 'Cybersecurity fundamentals, risk management, cryptography, and security best practices.',
-                //'linux-desc': 'Linux system administration, command line, file systems, networking, and security.',
+				'veeam1-desc': 'Foundational knowledge of M365 backup concepts, data loss scenarios, and Veeam protection strategies.',
+				'veeam2-desc': 'Foundational knowledge of Veeam comprehensive data protection solutions for virtual, physical, and cloud workloads.',
+				'stepik-desc': 'Linux system fundamentals covering command-line operations, file permissions, user management, process control, service administration, and shell scripting basics.',
+				'3cx-desc': 'Hands-on experience with 3CX phone system: installation, user management, call routing, and basic troubleshooting.',
                 
                 // Projects
                 'projects': 'My Projects',
