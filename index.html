@@ -837,6 +837,65 @@
         ::-webkit-scrollbar-thumb:hover {
             background: linear-gradient(135deg, var(--hover-accent), #1e6fa8);
         }
+		.scroll-to-top {
+			position: fixed;
+			bottom: 30px;
+			right: 30px;
+			width: 45px;
+			height: 45px;
+			background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+			color: #e0e0e0;
+			border: 1px solid #333;
+			border-radius: 8px;
+			cursor: pointer;
+			display: none;
+			justify-content: center;
+			align-items: center;
+			box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+			transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+			z-index: 1000;
+			font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+			backdrop-filter: blur(10px);
+		}
+
+		.scroll-to-top:hover {
+			background: linear-gradient(135deg, #2a2a2a 0%, #3a3a3a 100%);
+			color: #ffffff;
+			border-color: #444;
+			transform: translateY(-2px);
+			box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+		}
+
+		.scroll-to-top:active {
+			transform: translateY(0px);
+			box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+		}
+
+		.scroll-to-top.show {
+			display: flex;
+			animation: fadeInUp 0.3s ease-out;
+		}
+
+		@keyframes fadeInUp {
+			from {
+				opacity: 0;
+				transform: translateY(20px);
+			}
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+
+		/* Адаптивность для мобильных */
+		@media (max-width: 768px) {
+			.scroll-to-top {
+				bottom: 20px;
+				right: 20px;
+				width: 40px;
+				height: 40px;
+			}
+		}
     </style>
 </head>
 <body>
@@ -1338,15 +1397,11 @@
 							</p>
 							
 							<!-- Certificate Preview -->
-							<div class="certificate-preview" style="margin-top: 15px; display: flex; align-items: flex-start; gap: 15px;">
-								<img src="CRT/Veeam Backup for Microsoft 365 Certificate.png" 
-									 alt="AWS Cloud Practitioner Certificate" 
-									 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px;">
-								
-								<a href="CRT/Veeam Backup for Microsoft 365 Certificate.pdf" 
-								   target="_blank"
-								   style="display: inline-block; padding: 8px; background: #DC143C; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: bold; line-height: 1; min-width: 32px; text-align: center;">
-									PDF
+							<div class="certificate-preview" style="margin-top: 15px;">
+								<a href="CRT/Veeam Backup for Microsoft 365 Certificate.pdf" target="_blank">
+									<img src="CRT/Veeam Backup for Microsoft 365 Certificate.png" 
+										 alt="Veeam Backup for Microsoft 365 Certificate" 
+										 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer;">
 								</a>
 							</div>
 						</div>
@@ -1363,15 +1418,11 @@
 							</p>
 							
 							<!-- Certificate Preview -->
-							<div class="certificate-preview" style="margin-top: 15px; display: flex; align-items: flex-start; gap: 15px;">
-								<img src="CRT/Veeam Data Platform Certificate.png" 
-									 alt="AWS Cloud Practitioner Certificate" 
-									 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px;">
-								
-								<a href="CRT/Veeam Data Platform Certificate.pdf" 
-								   target="_blank"
-								   style="display: inline-block; padding: 8px; background: #DC143C; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: bold; line-height: 1; min-width: 32px; text-align: center;">
-									PDF
+							<div class="certificate-preview" style="margin-top: 15px;">
+								<a href="CRT/Veeam Data Platform Certificate.pdf" target="_blank">
+									<img src="CRT/Veeam Data Platform Certificate.png" 
+										 alt="Veeam Data Platform Certificate" 
+										 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer;">
 								</a>
 							</div>
 						</div>
@@ -1388,15 +1439,11 @@
 							</p>
 							
 							<!-- Certificate Preview -->
-							<div class="certificate-preview" style="margin-top: 15px; display: flex; align-items: flex-start; gap: 15px;">
-								<img src="CRT/stepik-certificate-73-275339b.png" 
-									 alt="AWS Cloud Practitioner Certificate" 
-									 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px;">
-								
-								<a href="CRT/stepik-certificate-73-275339b.pdf" 
-								   target="_blank"
-								   style="display: inline-block; padding: 8px; background: #DC143C; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: bold; line-height: 1; min-width: 32px; text-align: center;">
-									PDF
+							<div class="certificate-preview" style="margin-top: 15px;">
+								<a href="CRT/stepik-certificate-73-275339b.pdf" target="_blank">
+									<img src="CRT/stepik-certificate-73-275339b.png" 
+										 alt="Stepik Linux Certificate" 
+										 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer;">
 								</a>
 							</div>
 						</div>
@@ -1414,15 +1461,11 @@
 							</p>
 							
 							<!-- Certificate Preview -->
-							<div class="certificate-preview" style="margin-top: 15px; display: flex; align-items: flex-start; gap: 15px;">
-								<img src="CRT/stepik-certificate-551-353910c_1.png" 
-									 alt="AWS Cloud Practitioner Certificate" 
-									 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px;">
-								
-								<a href="CRT/stepik-certificate-551-353910c_1.pdf" 
-								   target="_blank"
-								   style="display: inline-block; padding: 8px; background: #DC143C; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: bold; line-height: 1; min-width: 32px; text-align: center;">
-									PDF
+							<div class="certificate-preview" style="margin-top: 15px;">
+								<a href="CRT/stepik-certificate-551-353910c_1.pdf" target="_blank">
+									<img src="CRT/stepik-certificate-551-353910c_1.png" 
+										 alt="Stepik Database Certificate" 
+										 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer;">
 								</a>
 							</div>
 						</div>
@@ -1439,21 +1482,17 @@
 							</p>
 							
 							<!-- Certificate Preview -->
-							<div class="certificate-preview" style="margin-top: 15px; display: flex; align-items: flex-start; gap: 15px;">
-								<img src="CRT/3cx.png" 
-									 alt="AWS Cloud Practitioner Certificate" 
-									 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px;">
-								
-								<a href="CRT/3cx.pdf" 
-								   target="_blank"
-								   style="display: inline-block; padding: 8px; background: #DC143C; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: bold; line-height: 1; min-width: 32px; text-align: center;">
-									PDF
+							<div class="certificate-preview" style="margin-top: 15px;">
+								<a href="CRT/3cx.pdf" target="_blank">
+									<img src="CRT/3cx.png" 
+										 alt="3CX Certificate" 
+										 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer;">
 								</a>
 							</div>
 						</div>
 					</div>
 					
-										<div class="experience-item">
+					<div class="experience-item">
 						<div class="experience-year">2023</div>
 						<div class="experience-content">
 							<h3 class="experience-company">G.A.S.T</h3>
@@ -1463,15 +1502,11 @@
 							</p>
 							
 							<!-- Certificate Preview -->
-							<div class="certificate-preview" style="margin-top: 15px; display: flex; align-items: flex-start; gap: 15px;">
-								<img src="CRT/Zertifikat DTZ-B1.jpg" 
-									 alt="AWS Cloud Practitioner Certificate" 
-									 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px;">
-								
-								<a href="CRT/Zertifikat DTZ-B1.pdf" 
-								   target="_blank"
-								   style="display: inline-block; padding: 8px; background: #DC143C; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: bold; line-height: 1; min-width: 32px; text-align: center;">
-									PDF
+							<div class="certificate-preview" style="margin-top: 15px;">
+								<a href="CRT/Zertifikat DTZ-B1.pdf" target="_blank">
+									<img src="CRT/Zertifikat DTZ-B1.jpg" 
+										 alt="B1 Deutsch Certificate" 
+										 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer;">
 								</a>
 							</div>
 						</div>
@@ -1487,15 +1522,11 @@
 							</p>
 							
 							<!-- Certificate Preview -->
-							<div class="certificate-preview" style="margin-top: 15px; display: flex; align-items: flex-start; gap: 15px;">
-								<img src="CRT/Zertifikat DTB-B2.jpg" 
-									 alt="AWS Cloud Practitioner Certificate" 
-									 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px;">
-								
-								<a href="CRT/Zertifikat DTB-B2.pdf" 
-								   target="_blank"
-								   style="display: inline-block; padding: 8px; background: #DC143C; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: bold; line-height: 1; min-width: 32px; text-align: center;">
-									PDF
+							<div class="certificate-preview" style="margin-top: 15px;">
+								<a href="CRT/Zertifikat DTB-B2.pdf" target="_blank">
+									<img src="CRT/Zertifikat DTB-B2.jpg" 
+										 alt="B2 Deutsch Certificate" 
+										 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer;">
 								</a>
 							</div>
 						</div>
@@ -1513,15 +1544,11 @@
 							</p>
 							
 							<!-- Certificate Preview -->
-							<div class="certificate-preview" style="margin-top: 15px; display: flex; align-items: flex-start; gap: 15px;">
-								<img src="CRT/Zertifikat TUV-Nord.png" 
-									 alt="AWS Cloud Practitioner Certificate" 
-									 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px;">
-								
-								<a href="CRT/Zertifikat TUV-Nord.pdf" 
-								   target="_blank"
-								   style="display: inline-block; padding: 8px; background: #DC143C; color: white; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: bold; line-height: 1; min-width: 32px; text-align: center;">
-									PDF
+							<div class="certificate-preview" style="margin-top: 15px;">
+								<a href="CRT/Zertifikat TUV-Nord.pdf" target="_blank">
+									<img src="CRT/Zertifikat TUV-Nord.png" 
+										 alt="TÜV Nord Certificate" 
+										 style="width: 100%; max-width: 300px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer;">
 								</a>
 							</div>
 						</div>
@@ -2328,7 +2355,41 @@
 			});
 		}
 
-
+		// Кнопка "наверх" в стиле сайта
+		document.addEventListener('DOMContentLoaded', function() {
+			const scrollToTopBtn = document.getElementById('scrollToTop');
+			
+			// Показать/скрыть кнопку при прокрутке
+			let ticking = false;
+			function updateScrollButton() {
+				if (window.pageYOffset > 400) {
+					scrollToTopBtn.classList.add('show');
+				} else {
+					scrollToTopBtn.classList.remove('show');
+				}
+				ticking = false;
+			}
+			
+			window.addEventListener('scroll', function() {
+				if (!ticking) {
+					requestAnimationFrame(updateScrollButton);
+					ticking = true;
+				}
+			});
+			
+			// Плавная прокрутка наверх при клике
+			scrollToTopBtn.addEventListener('click', function() {
+				window.scrollTo({
+					top: 0,
+					behavior: 'smooth'
+				});
+			});
+		});
     </script>
+	<button id="scrollToTop" class="scroll-to-top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <polyline points="18,15 12,9 6,15"></polyline>
+    </svg>
+</button>
 </body>
 </html>
