@@ -1,8 +1,7 @@
 /**
- * Translations and CV download paths. Extracted from index.html.
+ * Translations and CV download paths. Loaded before main.js (no modules).
  */
-
-export const translations = {
+window.translations = {
 			'ru': {
                 // Header & Basic Info
                 'name': 'Михаил Кийко',
@@ -69,7 +68,7 @@ export const translations = {
                 'company-bank': 'Банк "Надра"',
                 
                 // Experience descriptions
-                'exp1-desc': '• Поддержка и администрирование Linux и Windows серверов и рабочих станций<br>• Настройка и обслуживание систем мониторинга, безопасности и резервного копирования<br>• Управление сетевой инфраструктурой, настройка VPN и контроль доступа<br>• Обеспечение стабильной работы рабочих станций и ПО для исследовательского персонала<br>• Документирование процессов и поддержка пользователей',
+                'exp1-desc': '• Поддержка пользователей (1-й/2-й уровень) и управление IT-инфраструктурой<br>• Администрирование Linux-серверов, сетевой инфраструктуры и систем мониторинга<br>• Скрипты и автоматизация на PowerShell, Bash, Python и Go для администрирования<br>• Разработка внутренних инструментов и приложений для оптимизации процессов<br>• Настройка и сопровождение систем мониторинга<br>• Документирование систем и процессов<br>• Устранение неполадок и управление инцидентами в повседневной работе<br>• Работа с медицинским оборудованием и системами PACS/DICOM',
                 'exp2-desc': '• Руководство командой поддержки пользователей из 7 специалистов<br>• Организация рабочих процессов, распределение задач и обучение персонала<br>• Решение сложных технических вопросов и координация с поставщиками<br>• Внедрение ITIL процессов и управление SLA<br>• Документирование и отчетность перед руководством',
                 'exp3-desc': '• Обслуживание и администрирование серверов и рабочих станций в медицинской среде<br>• Мониторинг оборудования и ПО для критических медицинских систем<br>• Поддержка и обслуживание IT-связанного медицинского оборудования (МРТ, КТ, рентген)<br>• Обеспечение соответствия нормам защиты медицинских данных<br>• Процедуры экстренного реагирования и восстановления систем',
                 'exp4-desc': '• Поддержка IT инфраструктуры филиала для 150+ сотрудников<br>• Управление учетными записями пользователей, правами доступа и сетевым оборудованием<br>• Установка ПО, обновления и управление лицензиями<br>• Внедрение политик безопасности и стратегий резервного копирования<br>• Интеграция с корпоративными IT системами и политиками',
@@ -178,7 +177,7 @@ export const translations = {
 				'company-bank': 'Банк "Надра"',
 				
 				// Experience descriptions
-				'exp1-desc': '• Підтримка та адміністрування Linux і Windows серверів та робочих станцій<br>• Налаштування й обслуговування систем моніторингу, безпеки та резервного копіювання<br>• Управління мережею, налаштування VPN та контроль доступу<br>• Забезпечення стабільної роботи робочих станцій і ПЗ для дослідницького персоналу<br>• Документування процесів та підтримка користувачів',
+				'exp1-desc': '• Підтримка користувачів (1-й/2-й рівень) та управління IT-інфраструктурою<br>• Адміністрування Linux-серверів, мережевої інфраструктури та систем моніторингу<br>• Скрипти та автоматизація на PowerShell, Bash, Python та Go для адміністрування<br>• Розробка внутрішніх інструментів та застосунків для оптимізації процесів<br>• Налаштування та супровід систем моніторингу<br>• Документування систем та процесів<br>• Усунення несправностей та управління інцидентами в щоденній роботі<br>• Робота з медичним обладнанням та системами PACS/DICOM',
 				'exp2-desc': '• Керівництво командою підтримки користувачів з 7 спеціалістів<br>• Організація робочих процесів, розподіл завдань та навчання персоналу<br>• Вирішення складних технічних питань і координація з постачальниками<br>• Впровадження ITIL процесів та управління SLA<br>• Документування та звітність перед керівництвом',
 				'exp3-desc': '• Обслуговування та адміністрування серверів і робочих станцій у медичному середовищі<br>• Моніторинг обладнання та ПЗ для критичних медичних систем<br>• Підтримка й обслуговування медичного обладнання (МРТ, КТ, рентген)<br>• Забезпечення відповідності нормам захисту медичних даних<br>• Процедури екстреного реагування та відновлення систем',
 				'exp4-desc': '• Підтримка IT-інфраструктури філії для 150+ співробітників<br>• Управління обліковими записами, правами доступу та мережевим обладнанням<br>• Встановлення ПЗ, оновлень та управління ліцензіями<br>• Впровадження політик безпеки та стратегій резервного копіювання<br>• Інтеграція з корпоративними IT-системами та політиками',
@@ -289,7 +288,7 @@ export const translations = {
                 'company-bank': 'Bank "Nadra"',
                 
                 // Experience descriptions
-                'exp1-desc': '• Support und Administration von Linux- und Windows-Servern und Workstations<br>• Konfiguration und Wartung von Monitoring-Systemen, Sicherheit und Backups<br>• Verwaltung der Netzwerkinfrastruktur, VPN-Einrichtung und Zugriffskontrolle<br>• Sicherstellung des stabilen Betriebs von Workstations und Software für Forschungspersonal<br>• Dokumentation von Prozessen und Benutzersupport',
+                'exp1-desc': '• Benutzer-Support (1./2. Level) und IT-Infrastrukturmanagement<br>• Administration von Linux-Servern, Netzwerkinfrastruktur und Monitoring-Systemen<br>• Skripting und Automatisierung mit PowerShell, Bash, Python und Go für administrative Aufgaben<br>• Entwicklung interner Tools und Anwendungen zur Workflow-Optimierung<br>• Konfiguration und Wartung von Monitoring-Lösungen<br>• Dokumentation von Systemen und Prozessen<br>• Fehlerbehebung und Incident-Management im Tagesgeschäft<br>• Arbeit mit Medizingeräten sowie PACS- und DICOM-Systemen',
                 'exp2-desc': '• Führung eines Benutzersupport-Teams von 7 Spezialisten<br>• Organisation von Arbeitsprozessen, Aufgabenverteilung und Personalschulung<br>• Lösung komplexer technischer Probleme und Koordination mit Anbietern<br>• Implementierung von ITIL-Prozessen und SLA-Management<br>• Dokumentation und Berichterstattung an das Management',
                 'exp3-desc': '• Wartung und Administration von Servern und Workstations in medizinischer Umgebung<br>• Hardware- und Software-Monitoring für kritische medizinische Systeme<br>• Support und Wartung von IT-bezogenen medizinischen Geräten (MRT, CT, Röntgen)<br>• Sicherstellung der Einhaltung medizinischer Datenschutzbestimmungen<br>• Notfallreaktion und Systemwiederherstellungsverfahren',
                 'exp4-desc': '• Support der Filial-IT-Infrastruktur für 150+ Mitarbeiter<br>• Verwaltung von Benutzerkonten, Zugriffsrechten und Netzwerkausrüstung<br>• Software-Installation, Updates und Lizenzverwaltung<br>• Implementierung von Sicherheitsrichtlinien und Backup-Strategien<br>• Integration mit Unternehmens-IT-Systemen und -Richtlinien',
@@ -399,7 +398,7 @@ export const translations = {
                 'company-bank': 'Bank "Nadra"',
                 
                 // Experience descriptions
-                'exp1-desc': '• Support and administration of Linux and Windows servers and workstations<br>• Configuration and maintenance of monitoring systems, security, and backups<br>• Managing network infrastructure, VPN setup, and access control<br>• Ensuring stable operation of workstations and software for research staff<br>• Documentation of processes and user support',
+                'exp1-desc': '• User support (1st/2nd level) and IT infrastructure management<br>• Administration of Linux servers, network infrastructure, and monitoring systems<br>• Scripting and automation using PowerShell, Bash, Python, and Go for administrative tasks<br>• Development of internal tools and applications to optimize workflows<br>• Configuration and maintenance of monitoring solutions<br>• Documentation of systems and processes<br>• Troubleshooting and incident management in daily operations<br>• Work with medical equipment and PACS/DICOM systems',
                 'exp2-desc': '• Leading a user support team of 7 specialists<br>• Organizing work processes, task distribution, and staff training<br>• Solving complex technical issues and coordinating with vendors<br>• Implementation of ITIL processes and SLA management<br>• Documentation and reporting to management',
                 'exp3-desc': '• Maintenance and administration of servers and workstations in medical environment<br>• Hardware and software monitoring for critical medical systems<br>• Support and maintenance of IT-related medical equipment (MRI, CT, X-ray)<br>• Ensuring compliance with medical data protection regulations<br>• Emergency response and system recovery procedures',
                 'exp4-desc': '• Support of branch IT infrastructure for 150+ employees<br>• Management of user accounts, access rights, and network equipment<br>• Software installation, updates, and license management<br>• Implementation of security policies and backup strategies<br>• Integration with corporate IT systems and policies',
@@ -444,10 +443,9 @@ export const translations = {
             }
         };
 
-		// CV download functionality (simulated)
-		export const cvDownloads = {
-			'en': 'CV_KyikoM_EN.pdf',
-			'ru': 'CV_KyikoM_RU.pdf',
-			'de': 'CV_KyikoM_DE.pdf',
-			'uk': 'CV_KyikoM_UK.pdf'
-		};
+window.cvDownloads = {
+	'en': 'CV_KyikoM_EN.pdf',
+	'ru': 'CV_KyikoM_RU.pdf',
+	'de': 'CV_KyikoM_DE.pdf',
+	'uk': 'CV_KyikoM_UK.pdf'
+};
