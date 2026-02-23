@@ -1,0 +1,58 @@
+/* Responsive breakpoints */
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: 280px 1fr;
+        gap: 25px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    .sidebar { order: 1; }
+    .main-content { order: 2; }
+    .about-card { order: -1; }
+}
+
+@media (max-width: 768px) {
+    .header-container { padding: 0 15px; }
+    .header-actions {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .profile {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .experience-item {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .experience-year {
+        width: 100%;
+        min-width: unset;
+    }
+    .tabs { flex-direction: column; gap: 0; }
+    .tab-btn {
+        border-radius: 0;
+        border-bottom: 1px solid var(--secondary);
+    }
+    .projects-grid { grid-template-columns: 1fr; }
+    .skills-list { justify-content: center; }
+    .scroll-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+    }
+}

@@ -1,0 +1,15 @@
+/**
+ * Main stylesheet: imports all partials.
+ * Order: variables → layout → sections → components → utilities → responsive → print
+ */
+@import url('variables.css');
+@import url('layout.css');
+@import url('header.css');
+@import url('sidebar.css');
+@import url('main-content.css');
+@import url('projects.css');
+@import url('footer.css');
+@import url('components/scroll-to-top.css');
+@import url('utilities.css');
+@import url('responsive.css');
+@import url('print.css');
