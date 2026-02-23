@@ -19,23 +19,8 @@
 						<span>EN</span>
 						<i class="fas fa-chevron-down"></i>
 					</button>
-                    <div class="lang-dropdown">
-                        <div class="lang-option" data-lang="en">
-                            <div class="flag-icon flag-gb"></div>
-                            <span data-translate="lang-english">English</span>
-                        </div>
-                        <div class="lang-option" data-lang="de">
-                            <div class="flag-icon flag-de"></div>
-                            <span data-translate="lang-german">Deutsch</span>
-                        </div>
-                        <div class="lang-option" data-lang="uk">
-                            <div class="flag-icon flag-ua"></div>
-                            <span data-translate="lang-ukrainian">Українська</span>
-                        </div>
-                        <div class="lang-option" data-lang="ru">
-                            <div class="flag-icon flag-ru"></div>
-                            <span data-translate="lang-russian">Русский</span>
-                        </div>
+                    <div class="lang-dropdown" id="lang-dropdown">
+                        <!-- опции строятся из window.langList в main.js -->
                     </div>
                 </div>
                 <a id="download-cv" class="download-btn" href="CV_KyikoM_EN.pdf" download>
@@ -783,8 +768,18 @@
         <p class="copyright">© 2025 <span data-translate="name">Mykhailo Kyiko</span>. <span data-translate="rights">All rights reserved.</span></p>
     </footer>
 
-    <script src="js/data/translations.js"></script>
-    <script src="js/main.js"></script>
+    <script>
+    (function () {
+        var s = document.createElement('script');
+        s.src = 'js/data/translations.js?t=' + Date.now();
+        s.onload = function () {
+            var m = document.createElement('script');
+            m.src = 'js/main.js';
+            document.body.appendChild(m);
+        };
+        document.body.appendChild(s);
+    })();
+    </script>
 	<button id="scrollToTop" class="scroll-to-top">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
         <polyline points="18,15 12,9 6,15"></polyline>

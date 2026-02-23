@@ -1,6 +1,14 @@
 /**
  * Translations and CV download paths. Loaded before main.js (no modules).
  */
+// Порядок и отображение в переключателе. Добавление сюда + блок в translations + cvDownloads = новый язык на сайте.
+window.langList = [
+	{ code: 'en', flag: 'flag-gb', labelKey: 'lang-english' },
+	{ code: 'de', flag: 'flag-de', labelKey: 'lang-german' },
+	{ code: 'uk', flag: 'flag-ua', labelKey: 'lang-ukrainian' },
+	{ code: 'ru', flag: 'flag-ru', labelKey: 'lang-russian' }
+];
+
 window.translations = {
 			'ru': {
                 // Header & Basic Info

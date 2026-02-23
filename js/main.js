@@ -84,11 +84,24 @@
 
 	function initI18n() {
 		var langBtn = document.querySelector('.lang-btn');
-		var langOptions = document.querySelectorAll('.lang-option');
 		var downloadBtn = document.getElementById('download-cv');
 		if (!downloadBtn) return;
 		downloadBtn.setAttribute('target', '_blank');
 		downloadBtn.setAttribute('rel', 'noopener noreferrer');
+
+		var langDropdown = document.getElementById('lang-dropdown');
+		if (langDropdown && window.langList && window.langList.length) {
+			window.langList.forEach(function (item) {
+				var t = translations[item.code] || {};
+				var label = t[item.labelKey] || item.code.toUpperCase();
+				var option = document.createElement('div');
+				option.className = 'lang-option';
+				option.setAttribute('data-lang', item.code);
+				option.innerHTML = '<div class="flag-icon ' + item.flag + '"></div><span data-translate="' + item.labelKey + '">' + label + '</span>';
+				langDropdown.appendChild(option);
+			});
+		}
+		var langOptions = document.querySelectorAll('.lang-option');
 
 		if (langBtn) {
 			langBtn.addEventListener('click', function (e) {
