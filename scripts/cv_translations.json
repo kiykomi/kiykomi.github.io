@@ -1,0 +1,340 @@
+{
+  "Mykhailo Kyiko": {"en": "Mykhailo Kyiko", "ru": "Михаил Кийко", "uk": "Михайло Кийко"},
+  "Senior IT System Administrator | Infrastructure | Linux | VMware | Automation": {
+    "en": "Senior IT System Administrator | Infrastructure | Linux | VMware | Automation",
+    "ru": "Senior IT System Administrator | Infrastructure | Linux | VMware | Automation",
+    "uk": "Senior IT System Administrator | Infrastructure | Linux | VMware | Automation"
+  },
+  "Lünen, Deutschland": {"en": "Lünen, Germany", "ru": "Люнен, Германия", "uk": "Люнен, Німеччина"},
+  "  •  ": {"en": "  •  ", "ru": "  •  ", "uk": "  •  "},
+  "+49 174 4969629  ": {"en": "+49 174 4969629  ", "ru": "+49 174 4969629  ", "uk": "+49 174 4969629  "},
+  "•  ": {"en": "•  ", "ru": "•  ", "uk": "•  "},
+  "kiykomi@gmail.com": {"en": "kiykomi@gmail.com", "ru": "kiykomi@gmail.com", "uk": "kiykomi@gmail.com"},
+  "linkedin.com/in/kiykomi": {"en": "linkedin.com/in/kiykomi", "ru": "linkedin.com/in/kiykomi", "uk": "linkedin.com/in/kiykomi"},
+  "kiykomi.github.io": {"en": "kiykomi.github.io", "ru": "kiykomi.github.io", "uk": "kiykomi.github.io"},
+  "IT System Administrator mit 17 Jahren Erfahrung in Infrastruktur, Systemadministration und IT Operations in Forschungs-, Gesundheits- und Unternehmensumgebungen. Erfahrung im Betrieb hochverfügbarer Linux- und Windows-Infrastrukturen, Virtualisierung, Monitoring sowie Automatisierung administrativer Prozesse. Führungserfahrung, ausgeprägte Problemlösungskompetenz und starke Ausrichtung auf Stabilität, Sicherheit und kontinuierliche Optimierung von IT-Systemen.": {
+    "en": "IT System Administrator with 17 years of experience in infrastructure, system administration, and IT operations across research, healthcare, and corporate environments. Experienced in operating highly available Linux and Windows infrastructures, virtualization, monitoring, and automation of administrative processes. Leadership experience, strong problem-solving skills, and a clear focus on stability, security, and continuous optimization of IT systems.",
+    "ru": "IT-системный администратор с 17-летним опытом в инфраструктуре, системном администрировании и IT Operations в исследовательской, медицинской и корпоративной средах. Опыт эксплуатации высокодоступных Linux- и Windows-инфраструктур, виртуализации, мониторинга и автоматизации административных процессов. Опыт руководства, развитые навыки решения проблем и сильная ориентация на стабильность, безопасность и непрерывную оптимизацию IT-систем.",
+    "uk": "IT-системний адміністратор з 17-річним досвідом у інфраструктурі, системному адмініструванні та IT Operations у дослідницькому, медичному та корпоративному середовищах. Досвід експлуатації високодоступних Linux- та Windows-інфраструктур, віртуалізації, моніторингу та автоматизації адміністративних процесів. Досвід керівництва, розвинені навички вирішення проблем і сильна орієнтація на стабільність, безпеку та безперервну оптимізацію IT-систем."
+  },
+  "KOMPETENZEN": {"en": "SKILLS", "ru": "КОМПЕТЕНЦИИ", "uk": "КОМПЕТЕНЦІЇ"},
+  "● ": {"en": "● ", "ru": "● ", "uk": "● "},
+  "Infrastruktur: VMware ESXi, Hyper-V, Proxmox, Veeam, Windows Server (AD, DNS, GPO), Ubuntu/Linux": {
+    "en": "Infrastructure: VMware ESXi, Hyper-V, Proxmox, Veeam, Windows Server (AD, DNS, GPO), Ubuntu/Linux",
+    "ru": "Инфраструктура: VMware ESXi, Hyper-V, Proxmox, Veeam, Windows Server (AD, DNS, GPO), Ubuntu/Linux",
+    "uk": "Інфраструктура: VMware ESXi, Hyper-V, Proxmox, Veeam, Windows Server (AD, DNS, GPO), Ubuntu/Linux"
+  },
+  "Monitoring & Ops: Zabbix, Grafana, Incident Management, Runbooks, Hesk Helpdesk": {
+    "en": "Monitoring & Ops: Zabbix, Grafana, Incident Management, Runbooks, Hesk Helpdesk",
+    "ru": "Мониторинг и Ops: Zabbix, Grafana, Incident Management, Runbooks, Hesk Helpdesk",
+    "uk": "Моніторинг і Ops: Zabbix, Grafana, Incident Management, Runbooks, Hesk Helpdesk"
+  },
+  "Netzwerk & Security: MikroTik, Aruba, Ubiquiti, VPN, Hardening, Incident Response, AD Security": {
+    "en": "Network & Security: MikroTik, Aruba, Ubiquiti, VPN, Hardening, Incident Response, AD Security",
+    "ru": "Сеть и безопасность: MikroTik, Aruba, Ubiquiti, VPN, Hardening, Incident Response, AD Security",
+    "uk": "Мережа та безпека: MikroTik, Aruba, Ubiquiti, VPN, Hardening, Incident Response, AD Security"
+  },
+  "Automatisierung & DevOps: PowerShell, Bash, Python, Go, Git, GitLab CI, Docker, Terraform Grundlagen": {
+    "en": "Automation & DevOps: PowerShell, Bash, Python, Go, Git, GitLab CI, Docker, Terraform fundamentals",
+    "ru": "Автоматизация и DevOps: PowerShell, Bash, Python, Go, Git, GitLab CI, Docker, основы Terraform",
+    "uk": "Автоматизація та DevOps: PowerShell, Bash, Python, Go, Git, GitLab CI, Docker, основи Terraform"
+  },
+  "Plattformen: MS SQL, MySQL, 1C, DICOM/PACS, VoIP (Asterisk, 3CX), CCTV/ACS": {
+    "en": "Platforms: MS SQL, MySQL, 1C, DICOM/PACS, VoIP (Asterisk, 3CX), CCTV/ACS",
+    "ru": "Платформы: MS SQL, MySQL, 1C, DICOM/PACS, VoIP (Asterisk, 3CX), CCTV/ACS",
+    "uk": "Платформи: MS SQL, MySQL, 1C, DICOM/PACS, VoIP (Asterisk, 3CX), CCTV/ACS"
+  },
+  "BERUFSERFAHRUNG": {"en": "WORK EXPERIENCE", "ru": "ОПЫТ РАБОТЫ", "uk": "ДОСВІД РОБОТИ"},
+  "IT-Systemadministrator / IT-Fachinformatiker": {
+    "en": "IT System Administrator / IT Specialist",
+    "ru": "IT-системный администратор / IT-специалист",
+    "uk": "IT-системний адміністратор / IT-спеціаліст"
+  },
+  "Institut für Arbeitsforschung (IfADo), Dortmund\t\t\t\t\t\t\t\u00a011.2024 – heute": {
+    "en": "Institute for Occupational Research (IfADo), Dortmund\t\t\t\t\t\t\t\u00a011.2024 – Present",
+    "ru": "Институт исследования труда (IfADo), Дортмунд\t\t\t\t\t\t\t\u00a011.2024 – настоящее время",
+    "uk": "Інститут дослідження праці (IfADo), Дортмунд\t\t\t\t\t\t\t\u00a011.2024 – дотепер"
+  },
+  "●": {"en": "●", "ru": "●", "uk": "●"},
+  "IT Operations | Serviceorientierung:": {
+    "en": "IT Operations | Service Orientation:",
+    "ru": "IT Operations | Клиентоориентированность:",
+    "uk": "IT Operations | Клієнтоорієнтованість:"
+  },
+  " Sicherstellung des stabilen L1/L2-Supports für mehr als 150 Mitarbeitende und Forschende sowie Gewährleistung eines zuverlässigen Betriebs der IT-Services unter Einhaltung definierter Service Levels.": {
+    "en": " Ensuring stable L1/L2 support for 150+ employees and researchers, delivering reliable IT services within defined SLAs.",
+    "ru": " Стабильная поддержка L1/L2 для более 150 сотрудников и исследователей, надёжная работа IT-сервисов в рамках заданных SLA.",
+    "uk": " Стабільна підтримка L1/L2 для понад 150 співробітників і дослідників, надійна робота IT-сервісів у межах заданих SLA."
+  },
+  "Systemadministration | Infrastrukturmanagement:": {
+    "en": "System Administration | Infrastructure Management:",
+    "ru": "Системное администрирование | Управление инфраструктурой:",
+    "uk": "Системне адміністрування | Управління інфраструктурою:"
+  },
+  " Administration von über 15 Linux-Servern, dem Campus-Netzwerk sowie der Monitoring-Infrastruktur (Zabbix/Grafana) zur Sicherstellung einer Systemverfügbarkeit von über 99,5 % im Produktivbetrieb.": {
+    "en": " Administering 15+ Linux servers, campus network, and monitoring infrastructure (Zabbix/Grafana) with over 99.5% system availability in production.",
+    "ru": " Администрирование более 15 Linux-серверов, кампусной сети и мониторинга (Zabbix/Grafana) с доступностью систем свыше 99,5 %.",
+    "uk": " Адміністрування понад 15 Linux-серверів, кампусної мережі та моніторингу (Zabbix/Grafana) з доступністю систем понад 99,5 %."
+  },
+  "Automatisierung | Prozessoptimierung:": {
+    "en": "Automation | Process Optimization:",
+    "ru": "Автоматизация | Оптимизация процессов:",
+    "uk": "Автоматизація | Оптимізація процесів:"
+  },
+  " Entwicklung und Implementierung von über 15 Automatisierungslösungen mit PowerShell, Bash, Python und Go, wodurch der manuelle Administrationsaufwand um rund 8 Stunden pro Woche reduziert und Fehler bei Patch- und Provisionierungsprozessen minimiert wurden.": {
+    "en": " Developing and implementing 15+ automation solutions with PowerShell, Bash, Python, and Go, reducing manual admin effort by ~8 hours per week and minimizing errors in patch and provisioning processes.",
+    "ru": " Разработка и внедрение более 15 решений на PowerShell, Bash, Python и Go, сокращение ручной работы примерно на 8 часов в неделю и снижение ошибок в patch- и provisioning-процессах.",
+    "uk": " Розробка та впровадження понад 15 рішень на PowerShell, Bash, Python і Go, скорочення ручної роботи приблизно на 8 годин на тиждень і зменшення помилок у patch- та provisioning-процесах."
+  },
+  "Softwareentwicklung | Eigeninitiative:": {
+    "en": "Software Development | Own Initiative:",
+    "ru": "Разработка ПО | Собственная инициатива:",
+    "uk": "Розробка ПЗ | Власна ініціатива:"
+  },
+  " Entwicklung von drei internen Tools zur Inventarisierung, Ticketbearbeitung und Prozessautomatisierung, wodurch Supportprozesse beschleunigt und teamübergreifende Übergaben reduziert wurden.": {
+    "en": " Building three internal tools for inventory, ticket handling, and process automation to speed up support and reduce handoffs.",
+    "ru": " Три внутренних инструмента для инвентаризации, обработки тикетов и автоматизации процессов, ускорение поддержки и сокращение передач между командами.",
+    "uk": " Три внутрішні інструменти для інвентаризації, обробки тікетів і автоматизації процесів, прискорення підтримки та скорочення передач між командами."
+  },
+  "Monitoring | Proaktives Incident Management:": {
+    "en": "Monitoring | Proactive Incident Management:",
+    "ru": "Мониторинг | Проактивное управление инцидентами:",
+    "uk": "Моніторинг | Проактивне управління інцидентами:"
+  },
+  " Einführung von mehr als 50 automatisierten Überwachungsregeln zur frühzeitigen Erkennung kritischer Systemzustände und Vermeidung nutzerrelevanter Ausfälle.": {
+    "en": " Introducing 50+ automated monitoring rules for early detection of critical system states and prevention of user-impacting outages.",
+    "ru": " Более 50 автоматизированных правил мониторинга для раннего выявления критических состояний и предотвращения сбоев.",
+    "uk": " Понад 50 автоматизованих правил моніторингу для раннього виявлення критичних станів і запобігання збоям."
+  },
+  "Dokumentationskompetenz | Wissensmanagement:": {
+    "en": "Documentation | Knowledge Management:",
+    "ru": "Документирование | Управление знаниями:",
+    "uk": "Документування | Управління знаннями:"
+  },
+  " Erstellung von über 25 Runbooks und Standard Operating Procedures (SOPs), wodurch die Standardisierung administrativer Prozesse verbessert und wiederkehrende Supportanfragen reduziert wurden.": {
+    "en": " Creating 25+ runbooks and SOPs to standardize admin processes and reduce recurring support requests.",
+    "ru": " Более 25 runbook и SOP для стандартизации процессов и снижения повторяющихся обращений.",
+    "uk": " Понад 25 runbook і SOP для стандартизації процесів і зменшення повторюваних звернень."
+  },
+  "Problemlösungskompetenz | Incident Management:": {
+    "en": "Problem Solving | Incident Management:",
+    "ru": "Решение проблем | Управление инцидентами:",
+    "uk": "Вирішення проблем | Управління інцидентами:"
+  },
+  " Eigenverantwortliche Analyse und Bearbeitung von mehr als zehn Incidents pro Monat – von der Triage über Root Cause Analysis bis zur nachhaltigen Fehlerbehebung – in den Bereichen Linux, Netzwerk und Monitoring.": {
+    "en": " Independently analyzing 10+ incidents per month — from triage and root cause analysis to sustainable fixes in Linux, networking, and monitoring.",
+    "ru": " Самостоятельный анализ более 10 инцидентов в месяц — от triage и RCA до устойчивого устранения в Linux, сетях и мониторинге.",
+    "uk": " Самостійний аналіз понад 10 інцидентів на місяць — від triage і RCA до стійкого усунення в Linux, мережах і моніторингу."
+  },
+  "Karrierepause \t07.2022 – 10.2024": {
+    "en": "Career Break \t07.2022 – 10.2024",
+    "ru": "Карьерная пауза \t07.2022 – 10.2024",
+    "uk": "Кар'єрна пауза \t07.2022 – 10.2024"
+  },
+  "Umzug und Integration in Deutschland; Deutschkurse (B2).": {
+    "en": "Relocation and integration in Germany; German courses (B2).",
+    "ru": "Переезд и интеграция в Германии; курсы немецкого (B2).",
+    "uk": "Переїзд і інтеграція в Німеччині; курси німецької (B2)."
+  },
+  "Support Teamleiter": {
+    "en": "Support Team Lead",
+    "ru": "Руководитель команды поддержки",
+    "uk": "Керівник команди підтримки"
+  },
+  "NDA\t\t\t\t\t\t\t\t\t\t\t\t\u00a001.2017 – 02.2022": {
+    "en": "NDA\t\t\t\t\t\t\t\t\t\t\t\t\u00a001.2017 – 02.2022",
+    "ru": "NDA\t\t\t\t\t\t\t\t\t\t\t\t\u00a001.2017 – 02.2022",
+    "uk": "NDA\t\t\t\t\t\t\t\t\t\t\t\t\u00a001.2017 – 02.2022"
+  },
+  "Führungskompetenz | Teammanagement:": {
+    "en": "Leadership | Team Management:",
+    "ru": "Лидерство | Управление командой:",
+    "uk": "Лідерство | Управління командою:"
+  },
+  " Leitung eines siebenköpfigen Support-Teams (Support Engineers und Außendiensttechniker) für mehr als 25 Kundenstandorte mit dem Ziel, Reaktionszeiten zu verkürzen und die Erstlösungsquote nachhaltig zu verbessern.": {
+    "en": " Leading a seven-person support team (support engineers and field technicians) across 25+ customer sites to improve response times and first-call resolution.",
+    "ru": " Руководство командой из 7 специалистов (Support Engineers и выездные техники) для более 25 клиентских площадок, сокращение времени реакции и рост first-call resolution.",
+    "uk": " Керівництво командою з 7 фахівців (Support Engineers і польові техніки) для понад 25 клієнтських майданчиків, скорочення часу реакції та зростання first-call resolution."
+  },
+  "Personalentwicklung | Coaching:": {
+    "en": "People Development | Coaching:",
+    "ru": "Развитие персонала | Коучинг:",
+    "uk": "Розвиток персоналу | Коучинг:"
+  },
+  " Rekrutierung, Einarbeitung und fachliche Entwicklung von mehr als sechs Mitarbeitenden durch strukturierte Onboarding-Prozesse, Schulungsprogramme und Skill-Matrizen.": {
+    "en": " Recruiting, onboarding, and developing 6+ employees through structured onboarding, training programs, and skill matrices.",
+    "ru": " Найм, адаптация и развитие более 6 сотрудников через onboarding, обучение и skill-матрицы.",
+    "uk": " Найм, адаптація та розвиток понад 6 співробітників через onboarding, навчання та skill-матриці."
+  },
+  "Kommunikationsfähigkeit | Konfliktmanagement:": {
+    "en": "Communication | Conflict Management:",
+    "ru": "Коммуникация | Управление конфликтами:",
+    "uk": "Комунікація | Управління конфліктами:"
+  },
+  " Erfolgreiche Moderation von über 20 eskalierten Kundenfällen pro Jahr durch lösungsorientierte Kommunikation und nachhaltige Ursachenanalyse zur Sicherung langfristiger Kundenbeziehungen.": {
+    "en": " Successfully mediating 20+ escalated customer cases per year through solution-oriented communication and sustainable root cause analysis.",
+    "ru": " Успешное разрешение более 20 эскалированных клиентских кейсов в год через решение-ориентированную коммуникацию и устойчивый root cause analysis.",
+    "uk": " Успішне вирішення понад 20 ескальованих клієнтських кейсів на рік через рішення-орієнтовану комунікацію та стійкий root cause analysis."
+  },
+  "Prozessoptimierung | Strategisches Denken:": {
+    "en": "Process Optimization | Strategic Thinking:",
+    "ru": "Оптимизация процессов | Стратегическое мышление:",
+    "uk": "Оптимізація процесів | Стратегічне мислення:"
+  },
+  " Konsolidierung von mehr als zwölf eingesetzten Tools auf vier Standardplattformen zur Senkung der Betriebskosten, Vereinfachung der Administration und Optimierung interner Abläufe.": {
+    "en": " Consolidating 12+ tools into four standard platforms to reduce operating costs and simplify administration.",
+    "ru": " Консолидация более 12 инструментов в 4 стандартные платформы для снижения затрат и упрощения администрирования.",
+    "uk": " Консолідація понад 12 інструментів у 4 стандартні платформи для зниження витрат і спрощення адміністрування."
+  },
+  " Erstellung von über 30 technischen Anleitungen für Support Engineers und Endanwender zur Beschleunigung des Onboardings und Reduzierung wiederkehrender L1-Anfragen.": {
+    "en": " Creating 30+ technical guides for support engineers and end users to accelerate onboarding and reduce recurring L1 requests.",
+    "ru": " Более 30 технических инструкций для инженеров и пользователей, ускорение onboarding и снижение повторяющихся L1-обращений.",
+    "uk": " Понад 30 технічних інструкцій для інженерів і користувачів, прискорення onboarding і зменшення повторюваних L1-звернень."
+  },
+  "IT-Security | Infrastrukturmanagement:": {
+    "en": "IT Security | Infrastructure Management:",
+    "ru": "IT Security | Управление инфраструктурой:",
+    "uk": "IT Security | Управління інфраструктурою:"
+  },
+  " Administration und Absicherung von Windows-Server- und Active-Directory-Infrastrukturen (DNS, RDP, GPO) mit über 500 AD-Objekten in Multi-Tenant-Umgebungen.": {
+    "en": " Administering and securing Windows Server and Active Directory infrastructures (DNS, RDP, GPO) with 500+ AD objects in multi-tenant environments.",
+    "ru": " Администрирование и защита Windows Server и AD (DNS, RDP, GPO) с более 500 AD-объектами в multi-tenant средах.",
+    "uk": " Адміністрування та захист Windows Server і AD (DNS, RDP, GPO) з понад 500 AD-об'єктами в multi-tenant середовищах."
+  },
+  "Netzwerkadministration | Problemlösungskompetenz:": {
+    "en": "Network Administration | Problem Solving:",
+    "ru": "Сети | Решение проблем:",
+    "uk": "Мережі | Вирішення проблем:"
+  },
+  " Optimierung von MikroTik-WAN- und LAN-Infrastrukturen für Multi-Site-Kunden zur Gewährleistung einer stabilen Anbindung von POS-, VoIP- und Filialsystemen.": {
+    "en": " Optimizing MikroTik WAN/LAN infrastructures for multi-site customers to ensure stable connectivity for POS, VoIP, and branch systems.",
+    "ru": " Оптимизация MikroTik WAN/LAN для multi-site клиентов, стабильная связность POS, VoIP и филиальных систем.",
+    "uk": " Оптимізація MikroTik WAN/LAN для multi-site клієнтів, стабільна зв'язність POS, VoIP і філіальних систем."
+  },
+  "Virtualisierung | Hochverfügbarkeit:": {
+    "en": "Virtualization | High Availability:",
+    "ru": "Виртуализация | Высокая доступность:",
+    "uk": "Віртуалізація | Висока доступність:"
+  },
+  " Betrieb von VMware-ESXi- und Hyper-V-Infrastrukturen mit mehr als 350 virtuellen Maschinen und einer Verfügbarkeit von 99,9 % für produktive Unternehmenssysteme.": {
+    "en": " Operating VMware ESXi and Hyper-V infrastructures with 350+ VMs and 99.9% availability for production business systems.",
+    "ru": " VMware ESXi и Hyper-V с более 350 ВМ и доступностью 99,9 % для продуктивных систем.",
+    "uk": " VMware ESXi і Hyper-V з понад 350 ВМ і доступністю 99,9 % для продуктивних систем."
+  },
+  "Vendor Management | Servicekoordination:": {
+    "en": "Vendor Management | Service Coordination:",
+    "ru": "Vendor Management | Координация сервисов:",
+    "uk": "Vendor Management | Координація сервісів:"
+  },
+  " Steuerung externer Dienstleister und SLA-Management für VoIP-, CCTV-, Zutrittskontroll-, POS- und Drucksysteme mit über 8.000 Endgeräten.": {
+    "en": " Managing external providers and SLA for VoIP, CCTV, access control, POS, and printing systems with 8,000+ endpoints.",
+    "ru": " Управление внешними подрядчиками и SLA для VoIP, CCTV, СКУД, POS и печати (более 8000 устройств).",
+    "uk": " Управління зовнішніми підрядниками та SLA для VoIP, CCTV, СКД, POS і друку (понад 8000 пристроїв)."
+  },
+  "Datenbankadministration | Qualitätsbewusstsein:": {
+    "en": "Database Administration | Quality Focus:",
+    "ru": "Базы данных | Качество:",
+    "uk": "Бази даних | Якість:"
+  },
+  " Betreuung von 1C- und MS-SQL-Systemen für mehrere Kunden sowie Sicherstellung konsistenter Backups und der Betriebsfähigkeit geschäftskritischer Anwendungen.": {
+    "en": " Maintaining 1C and MS SQL systems for multiple customers, ensuring consistent backups and business-critical application availability.",
+    "ru": " Сопровождение 1C и MS SQL, обеспечение консистентных бэкапов и доступности критичных приложений.",
+    "uk": " Супровід 1C і MS SQL, забезпечення консистентних бекапів і доступності критичних застосунків."
+  },
+  "IT-Systemadministrator / IT-Manager": {
+    "en": "IT System Administrator / IT Manager",
+    "ru": "IT-системный администратор / IT-менеджер",
+    "uk": "IT-системний адміністратор / IT-менеджер"
+  },
+  "Taurt Medical, Cherson\t\t\t\t\t\t\t\t\u00a0Nebentätigkeit | 09.2020 – 06.2021": {
+    "en": "Taurt Medical, Kherson\t\t\t\t\t\t\t\t\u00a0Side role | 09.2020 – 06.2021",
+    "ru": "Taurt Medical, Херсон\t\t\t\t\t\t\t\t\u00a0Совместительство | 09.2020 – 06.2021",
+    "uk": "Taurt Medical, Херсон\t\t\t\t\t\t\t\t\u00a0Сумісництво | 09.2020 – 06.2021"
+  },
+  "IT-Management | Führungskompetenz:": {
+    "en": "IT Management | Leadership:",
+    "ru": "IT Management | Лидерство:",
+    "uk": "IT Management | Лідерство:"
+  },
+  " Gesamtverantwortung für die IT-Infrastruktur eines Klinikverbundes mit drei Standorten sowie fachliche Koordination eines vierköpfigen Teams und externer Dienstleister.": {
+    "en": " Full responsibility for IT infrastructure of a three-site clinic network, coordinating a four-person team and external providers.",
+    "ru": " Полная ответственность за IT-инфраструктуру клинической сети из 3 площадок, координация команды из 4 человек и внешних подрядчиков.",
+    "uk": " Повна відповідальність за IT-інфраструктуру клінічної мережі з 3 майданчиків, координація команди з 4 осіб і зовнішніх підрядників."
+  },
+  "Projektmanagement | Infrastrukturaufbau:": {
+    "en": "Project Management | Infrastructure Build-out:",
+    "ru": "Управление проектами | Построение инфраструктуры:",
+    "uk": "Управління проєктами | Побудова інфраструктури:"
+  },
+  " Planung, Beschaffung und erfolgreiche Implementierung der kompletten IT-Infrastruktur – von Serverraum und Netzwerken bis zum produktiven Go-live – innerhalb von neun Monaten.": {
+    "en": " Planning, procurement, and successful implementation of complete IT infrastructure — from server room and networks to production go-live — within nine months.",
+    "ru": " Планирование, закупка и внедрение полной IT-инфраструктуры за 9 месяцев — от серверной до go-live.",
+    "uk": " Планування, закупівля та впровадження повної IT-інфраструктури за 9 місяців — від серверної до go-live."
+  },
+  "Systemintegration | Analytisches Denken:": {
+    "en": "System Integration | Analytical Thinking:",
+    "ru": "Системная интеграция | Аналитика:",
+    "uk": "Системна інтеграція | Аналітика:"
+  },
+  " Integration eines DICOM/PACS-Systems mit fünf medizinischen Bildgebungsmodalitäten zur Sicherstellung eines effizienten digitalen Datenaustauschs im klinischen Umfeld.": {
+    "en": " Integrating a DICOM/PACS system with five medical imaging modalities for efficient digital data exchange in clinical environments.",
+    "ru": " Интеграция DICOM/PACS с 5 модальностями медицинской визуализации для эффективного обмена данными.",
+    "uk": " Інтеграція DICOM/PACS з 5 модальностями медичної візуалізації для ефективного обміну даними."
+  },
+  "IT Operations | Zuverlässigkeit:": {
+    "en": "IT Operations | Reliability:",
+    "ru": "IT Operations | Надёжность:",
+    "uk": "IT Operations | Надійність:"
+  },
+  " Sicherstellung des stabilen 24/7-Betriebs von über 250 klinischen und administrativen Endgeräten ohne längerfristige Ausfälle während der Projektlaufzeit.": {
+    "en": " Ensuring stable 24/7 operation of 250+ clinical and administrative endpoints without prolonged outages during the project.",
+    "ru": " Стабильная работа 24/7 более 250 клинических и административных устройств без длительных простоев.",
+    "uk": " Стабільна робота 24/7 понад 250 клінічних і адміністративних пристроїв без тривалих простоїв."
+  },
+  "Verhandlungsführung | Budgetverantwortung:": {
+    "en": "Negotiation | Budget Responsibility:",
+    "ru": "Переговоры | Бюджет:",
+    "uk": "Переговори | Бюджет:"
+  },
+  " Durchführung von Lieferantenverhandlungen und Koordination von Beschaffungsprojekten im Umfang von über 1 Mio. USD unter Berücksichtigung technischer Anforderungen, Garantiebedingungen und Lieferfristen.": {
+    "en": " Conducting supplier negotiations and coordinating procurement projects worth over $1M USD, considering technical requirements, warranty terms, and delivery timelines.",
+    "ru": " Переговоры с поставщиками и закупки на сумму свыше 1 млн USD с учётом техтребований, гарантий и сроков.",
+    "uk": " Переговори з постачальниками та закупівлі на суму понад 1 млн USD з урахуванням техвимог, гарантій і термінів."
+  },
+  "AUSBILDUNG": {"en": "EDUCATION", "ru": "ОБРАЗОВАНИЕ", "uk": "ОСВІТА"},
+  "DevOps Academy (Intensiv),": {
+    "en": "DevOps Academy (Intensive),",
+    "ru": "DevOps Academy (интенсив),",
+    "uk": "DevOps Academy (інтенсив),"
+  },
+  " EPAM Systems (CI/CD, Automatisierung, Cloud": {
+    "en": " EPAM Systems (CI/CD, Automation, Cloud",
+    "ru": " EPAM Systems (CI/CD, автоматизация, Cloud",
+    "uk": " EPAM Systems (CI/CD, автоматизація, Cloud"
+  },
+  ")": {"en": ")", "ru": ")", "uk": ")"},
+  ", ": {"en": ", ", "ru": ", ", "uk": ", "},
+  "2021": {"en": "2021", "ru": "2021", "uk": "2021"},
+  "B.Sc. Kybernetik & Computertechnik, ": {
+    "en": "B.Sc. Cybernetics & Computer Engineering, ",
+    "ru": "Бакалавр кибернетики и компьютерной техники, ",
+    "uk": "Бакалавр кібернетики та комп'ютерної техніки, "
+  },
+  "Nationale Technische Universität Cherson (EQF-Niveau 6), 2010 – ": {
+    "en": "Kherson National Technical University (EQF Level 6), 2010 – ",
+    "ru": "Херсонский национальный технический университет (уровень EQF 6), 2010 – ",
+    "uk": "Херсонський національний технічний університет (рівень EQF 6), 2010 – "
+  },
+  "2014": {"en": "2014", "ru": "2014", "uk": "2014"},
+  "SPRACHKENNTNISSE": {"en": "LANGUAGES", "ru": "ЯЗЫКИ", "uk": "МОВИ"},
+  "Ukrainisch – Muttersprache, Russisch – C2, Deutsch – B2, Englisch -B1": {
+    "en": "Ukrainian – Native, Russian – C2, German – B2, English – B1",
+    "ru": "Украинский – родной, Русский – C2, Немецкий – B2, Английский – B1",
+    "uk": "Українська – рідна, Російська – C2, Німецька – B2, Англійська – B1"
+  },
+  "Lünen, 29.06.2026                                                                                                                                                      Mykhailo Kyiko": {
+    "en": "Lünen, 29.06.2026                                                                                                                                                      Mykhailo Kyiko",
+    "ru": "Люнен, 29.06.2026                                                                                                                                                      Михаил Кийко",
+    "uk": "Люнен, 29.06.2026                                                                                                                                                      Михайло Кийко"
+  }
+}
